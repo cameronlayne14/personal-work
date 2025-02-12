@@ -1,0 +1,319 @@
+---
+title: "Medical Spa Product Projections"
+author: "Cameron Houston"
+date: "2025-01-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(xgboost)
+library(fpp3)
+library(fable)
+library(tsibble)
+library(RColorBrewer)
+```
+
+```{r}
+#Import Data 
+sales <- read.csv("2022-2024 Clinic Product Sales Data.csv")
+promos <- read.csv("Promotion details and dates.csv")
+```
+
+
+## Cleaning of Data 
+```{r}
+#Make Dates Correct Format 
+promos_clean <- promos %>% mutate(Start.Date = as.Date(Start.Date, format = "%m/%d/%Y"), 
+                                  End.Date = as.Date(End.Date, format = "%m/%d/%Y"))
+
+sales_promo <- sales %>% mutate(sale.date = as.Date(sale.date, format = "%m/%d/%Y")) %>% 
+  select(-guest.user.id)
+
+##Add Promotion by Date to Sales to Explore 
+#Promotion Column for No Promotion
+sales_promo$promo <- 0
+#Promotion Column for Type
+sales_promo$promotion.type <- "None"
+#For Loop of Each Promotion
+for(i in seq_len(nrow(promos_clean))){
+  promotion <- promos_clean[i,]
+  promotion_name <- promotion[1]
+  #Promotion Dates
+  sales_promo$promo <- ifelse(sales_promo$sale.date >= promotion$Start.Date
+                        & sales_promo$sale.date <= promotion$End.Date,1, sales_promo$promo)
+  #Promotion Type
+  sales_promo$promotion.type <- ifelse(sales_promo$promo == 1 & sales_promo$promotion.type == "None", promotion_name, sales_promo$promotion.type)
+  sales_promo$promotion.type <- unlist(sales_promo$promotion.type)
+}
+```
+
+
+
+##Exploring Sales
+```{r}
+# All Product Sales 
+##Explore the sales over years
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"),sep = "-") %>%
+  group_by(year) %>% 
+  summarise(yearly.sales = sum(quantity.sold)) %>% 
+  ggplot(aes(x = year, y = yearly.sales)) + geom_col()+ 
+  labs(title = "All Product Yearly Sales")
+
+#Serum Product Sales
+##Explore hyaluronic sales over years
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"),sep = "-") %>%
+  filter(product.name == "Hyaluronic Acid Serum") %>% 
+  group_by(year) %>% 
+  summarise(yearly.sales = sum(quantity.sold)) %>% 
+  ggplot(aes(x = year, y = yearly.sales)) + 
+  geom_col() + 
+  labs(title = "Hyaluronic Acid Serum Yearly Sales")
+
+#Serum Promotions
+##Explore types of promotions and sales over years
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"), sep = "-") %>% 
+  filter(product.name == "Hyaluronic Acid Serum") %>% 
+  group_by(promotion.type, year) %>% 
+  summarise(serum.sold = sum(quantity.sold))
+
+#Clinic G Serum Sales
+
+##Product sales by promotion types
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"), sep = "-") %>% 
+  filter(product.name == "Hyaluronic Acid Serum" & clinic.name == "Clinic G") %>% 
+  group_by(promotion.type, year) %>% 
+  summarise(serum.sold = sum(quantity.sold)) %>% 
+  arrange(desc(serum.sold))
+
+##What other products are popular at clinic g over the years
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"), sep = "-") %>% 
+  filter(clinic.name == "Clinic G") %>% 
+  group_by(product.name, year) %>% 
+  summarise(products.sold = sum(quantity.sold)) %>% 
+  arrange(desc(products.sold))
+
+#Hyaluronic acid serum sold at clinic g over the years
+sales_promo %>% 
+  separate(sale.date, into=c("year", "month", "day"), sep = "-") %>% 
+  filter(product.name == "Hyaluronic Acid Serum" & clinic.name == "Clinic G") %>% 
+  group_by(promotion.type, year) %>% 
+  summarise(serum.sold = sum(quantity.sold)) %>% 
+  ggplot(aes(x = year, y = serum.sold)) + 
+  geom_col() + 
+  labs(title = "Hyaluronic Acid Serum Yearly Sales at Clinic G")
+```
+Hyaluronic Acid Serum sales are up over the years, including at Clinic G. Only serums were included in the data set, so comparing the type of product to the promotion are not needed in this dataset. Although, the serum promotion has higher serum sales than any other promotion. 
+
+
+## Modeling 
+Start with the basics for quarterly product sold, then can evaluate additional components such as promotions
+```{r}
+##Filter Product and Clinic
+sales_clean <- sales_promo %>% filter(product.name == "Hyaluronic Acid Serum", clinic.name == "Clinic G")
+#Make Tsibble for Month (will aggregate for quarter later due to sample size)
+sales_ts <- sales_clean %>% mutate(Month = yearmonth(sale.date)) %>% group_by(Month) %>%
+  summarize(total.sold = sum(quantity.sold)) %>% as_tsibble(index = Month)
+##Split test/train
+train <- sales_ts %>% 
+  filter_index(~ "2024-06")
+test <- sales_ts %>%
+  filter_index("2024-07" ~ "2024-09") #Quarter 3 
+```
+
+```{r}
+#Explore time series relationship 
+autoplot(train, total.sold)
+train %>% features(total.sold, feat_stl)
+```
+Ft = 0.33
+Fs = 0.41
+Indicating low to moderate strengths of trend and seasons, will explore further
+
+```{r}
+#Seasonal Trend Losses Decomposition
+dcmp <- train %>%  model(stl = STL(total.sold))
+
+#STL decomp visuals 
+components(dcmp) %>% as_tsibble() |>
+autoplot(total.sold, colour="black") +
+geom_line(aes(y=trend), colour = "blue") + labs( y =
+"Total Products Sold", title = "Hyaluronic Serum Sold by Month" )
+components(dcmp) %>%  as_tsibble() %>% 
+autoplot(total.sold, colour="black") +
+geom_line(aes(y=season_adjust), colour = "blue") + labs( y =
+"Total Products Sold", title = "Hyaluronic Serum Sold by Month Seasonally Adjusted" )
+#Visually look at seasons and trends
+components(dcmp) %>% autoplot()
+```
+
+```{r}
+#Stationary Test 
+train %>% features(total.sold, unitroot_kpss) ## 0.0722 -- failing to reject 
+train %>%  features(total.sold, unitroot_ndiffs)# Double checking test, 0 differences
+##Visually look before continuing on 
+train %>% gg_tsdisplay(total.sold, plot_type = "partial")
+```
+The p value is 0.08 and seasonal differences are not recommended. Will fail to reject the null, favoring that the data is stationary. Will explore models with no transformations. 
+
+
+```{r}
+##Explore Forecast Models 
+sales_fit <- train |>
+  model(
+    SES = ETS(total.sold ~ error("A") + trend("N") + season("N")), #Single exponential smoothing
+    `Linear` = ETS(total.sold ~ error("A") + trend("A") + season("N")), #Linear
+    `Damped Linear` = ETS(total.sold ~ error("A") + trend("Ad") + season("N")), #Damped linear
+    HWAdd = ETS(total.sold ~ error("A") + trend("A") + season("A")), #Holt winters additive
+    HWMult = ETS(total.sold ~ error("M") + trend("A") + season("M")) #Holt winters multiplicative
+  )
+#Evaluate all models
+report(sales_fit)
+##Evaluate ARIMAS
+sales_model <- train %>% model(
+ ar3= ARIMA(total.sold ~ pdq(3,0,0)),#based off pacf graph
+ ma2 = ARIMA(total.sold ~ pdq(0,0,2)), #based off acf graph
+ rand1 = ARIMA(total.sold)) # using automated search
+
+#Evaluate all models
+report(sales_model)
+sales_model %>% select(rand1) %>% report #Check automated model
+```
+Top models by AICc: ARIMAs --> Moving Average(2) and ARIMA(0,0,0)
+Other Models --> Simple exponential smoothing
+
+
+```{r}
+#Step Intervention
+##Consider when promotion exists
+#Requires more granular level, reset tsibble for days rather than months
+promos_ts <- sales_promo %>% 
+  filter(clinic.name =="Clinic G" & product.name == "Hyaluronic Acid Serum") %>% 
+  group_by(sale.date, promo, promotion.type) %>%  
+  summarize(total.sold = sum(quantity.sold), .groups = "drop") %>% as_tsibble(index = sale.date)
+##New split test/train
+train2 <- promos_ts %>% 
+  filter_index(~ "2024-06")
+test2 <- promos_ts %>%
+  filter_index("2024-07" ~ "2024-09")
+```
+
+
+```{r}
+#Check for missing days 
+count_gaps(train2)
+# Train needs to go until day before test, fill in last days
+last_date <- max(train2$sale.date)  
+target_end_date <- as.Date("2024-06-30")
+# Generate missing dates
+missing_dates <- seq(last_date + 1, target_end_date, by = "day")
+# Missing values with imputed values
+missing_data <- tibble(
+  sale.date = missing_dates,
+  promo = 0, 
+  total.sold = 0, 
+  promotion.type = "None"
+)
+
+# Combine the original data with the missing data
+train2<- bind_rows(train2, missing_data)
+#Fill in gaps from original 
+train2 <- fill_gaps(train2, promo = 0, total.sold = 0, promotion.type = "None") 
+#Repeat for potential missing test dates
+test2 <- fill_gaps(test2, promo = 0, total.sold = 0, promotion.type = "None")
+```
+ 
+```{r}
+#Step Intervention Model
+step_model_promo <- train2 %>% 
+  model(mod1 = ARIMA(total.sold ~ pdq(0,0,1)+promo), ##Add promotion as additional var
+  mod2 = ARIMA(total.sold ~ pdq(0,0,2)), 
+  rand1 = ARIMA(total.sold))
+report(step_model_promo)
+
+```
+
+ 
+
+```{r}
+#Try all models explored
+top_mods <- train %>% 
+  model(mod1 = ARIMA(total.sold ~ pdq(0,0,2)), 
+        mod2 = ARIMA(total.sold ~ pdq(1,0,2)), 
+        mod3 = ARIMA(total.sold ~ pdq(0,0,0)),
+        SES = ETS(total.sold ~ error("A") + trend("N") + season("N")))
+report(top_mods)
+#Forecast models
+top_fore <- forecast(top_mods, test)
+#Plot forecast 
+top_fore %>%
+  autoplot(train) + 
+  autolayer(fitted(top_mods), col = "blue", linetype = "dashed") + 
+  ylab("Product Sold")
+  
+## Check accuracy / model evaluation
+fabletools::accuracy(top_fore, test)
+```
+
+
+```{r}
+#Simple Average Ensemble Model
+##Ensemble the arima models, as they have shown to be best
+ensemble_mod <- train %>% 
+  model(mod1 = ARIMA(total.sold ~ pdq(0,0,2)), 
+        mod2 = ARIMA(total.sold ~ pdq(1,0,2)),
+        mod3 = ARIMA(total.sold ~ pdq(1,0,2))) %>% 
+  mutate(combo = (mod1 + mod2 + mod3) / 3) #Simple average of all models
+#Forecast ensemble model
+model_all_for <- ensemble_mod %>%
+  forecast(h = 3)
+
+##Visualize all predictions
+model_all_for %>%
+  autoplot() + 
+  scale_colour_brewer(palette = "Paired") +
+  labs(y = "Products Sold", title = "Comparison of Forecasts") 
+## Get ensemble evaluations
+model_all_for %>%
+  accuracy(test) %>%
+  arrange(MAPE)
+```
+While the ensemble model did perform better than most models alone, model one, the 2 moving average lags performed the overall best. 
+
+
+##Selected Model 
+Best model overall was MA(2), now going to evaluate final predictions`
+```{r}
+#Run model alone
+demand_model <- train %>% 
+  model(mod1 = ARIMA(total.sold ~ pdq(0,0,2))) 
+#Pull single forecast
+demand_forecast <- forecast(demand_model, h = 3)
+```
+
+## Final Prediction Forecast
+```{r}
+## Goal was to predict quarter sales, need to aggregate months
+#Forecast Predictions
+predictions <- demand_forecast$.mean
+actual <- test$total.sold
+sum(predictions)
+MAE <- abs(sum(predictions)-sum(actual))
+MAE
+```
+Final Predictions for Q3 in 2024 were 124 containers of Hyaluronic Acid Serum to be sold at Clinic G. However, I under predicted by 10 containers. I believe additional variables or better understanding of the industry would allow me to tailor this or develop more advanced forecast models that utilize machine learning algorithms like neural network or extreme gradient boosting. 
+
+
+
+
+
+
