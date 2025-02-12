@@ -1,0 +1,1146 @@
+line_id,character,line,TextBlob_subjectivity,TextBlob_polarity,TextBlob_analysis
+1,JOY,Let's! Play! Some! HOCKEY!!!,0.0,0.0,Neutral
+2,JOY,"This is Jane, comin' from you live in Riley's mind! And we are expecting a great championship today with the Foghorns! Riley fans! Get up on your feet and MAKE SOME NOISE!!!",0.625,0.5852272727272727,Positive
+3,JILLIAN MARIE ANDERSEN,"GO, GO, GO!!",0.0,0.0,Neutral
+4,JILLIAN MARIE ANDERSEN,"LET'S GO, FOGHORNS!!!",0.0,0.0,Neutral
+5,WILLIAM ANDERSEN,"LET'S GO, FOGHORNS!!!",0.0,0.0,Neutral
+6,RILEY ANDERSEN,"Bring it in! Foghorns, on three! One, two, three!",0.0,0.0,Neutral
+7,FOGHORNS,FOGHORNS!!!,0.0,0.0,Neutral
+8,JOY,"Now it's time to greet your Team Riley! Playing in his thirteenth year and fresh from the Penalty Box, it's Riley's Andy!",0.5,0.375,Positive
+9,ANGER,LET ME AT 'EM!!!,0.0,0.0,Neutral
+10,RILEY ANDERSEN,Whoo!,0.0,0.0,Neutral
+11,FEAR,"Helmet, pads, gloves, safety check list is complete! It should be nothin' but smooth sailing from-- AHH!!! LOOK OUT!!!",0.45,0.5625,Positive
+12,JOY,And that's Frank! Keepin' Riley on her toes!,0.0,0.0,Neutral
+13,FEAR,"We gotta get our mouth guard, people!",0.0,0.0,Neutral
+14,DISGUST,"No, no, no, no! That's not ours!",0.0,0.0,Neutral
+15,RILEY ANDERSEN,BLECH!!!,1.0,-1.0,Negative
+16,JOY,"And that, folks, is the infamous Doug! Glad to have her on the team!",1.0,0.0,Neutral
+17,REFEREE,28! Andersen! Tripping!,0.0,0.0,Neutral
+18,SADNESS,"Oh, no.",0.0,0.0,Neutral
+19,JOY,"And bringing it up from the rear! You know you love her! The one, the only…",0.6,0.625,Positive
+20,SADNESS,Oh! We got a penalty…!,0.0,0.0,Neutral
+21,JOY,That's right! Steve is in da house!,0.5357142857142857,0.4464285714285714,Positive
+22,SADNESS,Yay…,0.0,0.0,Neutral
+23,HOCKEY COMMENTATOR,Andersen goes to the box 2 minutes for tripping!,0.0,0.0,Neutral
+24,JOY,"Okay, looks like we have a couple of minutes while Riley takes a breather, let me catch you up. Riley is still exceptional.",0.75,0.5833333333333333,Positive
+25,RILEY ANDERSEN,Ta-Da!,0.0,0.0,Neutral
+26,JILLIAN MARIE ANDERSEN,Oh. Yum!,0.0,0.0,Neutral
+27,JOY,"And not just because she's the top of her class, which by the way, she is…",0.5,0.5,Positive
+28,WILLIAM ANDERSEN,Riley! Riley! Over here!,0.0,0.0,Neutral
+29,JOY,"She's also really kind. And she's nice to stray cats, I mean, come on! Oh! And she's officially a teenager now! She got very tall. Very fast.",0.7334999999999999,0.2099296875,Positive
+30,ANGER,Did we grow overnight?!,0.0,0.0,Neutral
+31,SADNESS,Oh. That was our favorite shirt…,1.0,0.5,Positive
+32,JOY,We even got braces with extra rubber bands!,0.1,0.0,Neutral
+33,DENTIST,How does it feel?,0.0,0.0,Neutral
+34,RILEY ANDERSEN,Great!,0.75,1.0,Positive
+35,DENTIST,Ow!,0.0,0.0,Neutral
+36,RILEY ANDERSEN,Sorry.,1.0,-0.5,Negative
+37,JOY,Riley's Personality Islands are still going strong.,0.7333333333333333,0.4333333333333333,Positive
+38,DISGUST,Glad to see Boy Band Island finally broke up.,1.0,0.25,Positive
+39,FEAR,But Goofball is still monkeyin' around!,0.0,0.0,Neutral
+40,SADNESS,"Wait, where's Family Island?",0.0,0.0,Neutral
+41,JOY,It's right there!,0.5357142857142857,0.3571428571428571,Positive
+42,SADNESS,"Oh! There it is. Uh, what's that blocking it?",0.0,0.0,Neutral
+43,JOY,Oh! That's Friendship Island! Isn't it amazing?,0.9,0.6000000000000001,Positive
+44,JOY,"But we realized her islands aren't the only things made by memories. Way down at the root level, these memories were also creating beliefs.",0.6444444444444445,-0.07777777777777779,Negative
+45,RILEY ANDERSEN'S 2ND BELIEF,Homework should be illegal.,0.5,-0.5,Negative
+46,RILEY ANDERSEN'S 3RD BELIEF,Get Up and Glow is the best band ever!,0.3,1.0,Positive
+47,JOY,And my personal favorite?,0.65,0.25,Positive
+48,RILEY ANDERSEN'S 1ST BELIEF,I'm a really good friend.,0.6000000000000001,0.7,Positive
+49,YOUNG GRACE HSIEH,Did you know the change in your couch could change the world--!,0.0,0.0,Neutral
+50,JOY,"Oh, no. We should do somethin'.",0.0,0.0,Neutral
+51,DISGUST,No! That girl is a social titanic! Do not get on that ship!,0.06666666666666667,0.05208333333333333,Positive
+52,FEAR,"Uh, guys?",0.0,0.0,Neutral
+53,YOUNG RILEY ANDERSEN,It's okay. I drop things all the time. I'm Riley.,0.5,0.5,Positive
+54,YOUNG GRACE HSIEH,I'm Grace.,0.0,0.0,Neutral
+55,"YOUNG BREEONNA ""BREE"" YOUNG",I'm Bree.,0.0,0.0,Neutral
+56,JOY,"Turns out when you put all those beliefs together, they make the most wonderful thing of all: Her Sense of Self.",0.75,0.75,Positive
+57,RILEY ANDERSEN'S SENSE OF SELF,I'm a good person.,0.6000000000000001,0.7,Positive
+58,JOY,It's what helps Riley make good choices. Thirteen years of hard work all wrapped up and some might call our masterpiece. You know one of our hardest challenges-- Oh! Back to the game!,0.38541666666666663,-0.041145833333333354,Negative
+59,SADNESS,We're tied!,0.0,0.0,Neutral
+60,DISGUST,How are we gonna score on time?!,0.0,0.0,Neutral
+61,FEAR,Whe use our slap shot!,0.0,0.0,Neutral
+62,ANGER,"No, no, no! We charge the goalie!",0.0,0.0,Neutral
+63,SADNESS,But Grace hasn't scored yet!,0.0,0.0,Neutral
+64,JOY,Riley's got this.,0.0,0.0,Neutral
+65,RILEY ANDERSEN,Thread the needle!,0.0,0.0,Neutral
+66,JOY,"Come on, Riley.",0.0,0.0,Neutral
+67,"BREEONNA ""BREE"" YOUNG, GRACE HSIEH",AWOOGA!!!,0.0,0.0,Neutral
+68,RILEY ANDERSEN,AWOOGA!!!,0.0,0.0,Neutral
+69,"JOY, SADNESS, ANGER, DISGUST",AWOOGA!!!,0.0,0.0,Neutral
+70,FEAR,AWOOGA!!!,0.0,0.0,Neutral
+71,WILLIAM ANDERSEN,THAT'S WHAT I'M TALKIN' ABOUT!!,0.0,0.0,Neutral
+72,JILLIAN MARIE ANDERSEN,GO RILEY!!!,0.0,0.0,Neutral
+73,WILLIAM ANDERSEN,LOOK AT THAT!!! THAT'S MY GIRL!!!,0.0,0.0,Neutral
+74,HOCKEY COMMENTATOR,The Foghorns win the championships!,0.4,1.0,Positive
+75,RILEY ANDERSEN,"She shoots, and she scores!",0.0,0.0,Neutral
+76,COACH ROBERTS,Hey girls. Congratulations on your win.,0.4,0.8,Positive
+77,JOY,That's the high school coach!,0.5399999999999999,0.2,Positive
+78,COACH ROBERTS,What a game! That last play? Whoo! The three of you were impressive.,0.48888888888888893,0.16666666666666666,Positive
+79,RILEY,Thanks Coach Roberts.,0.2,0.2,Positive
+80,COACH ROBERTS,"Look, it's last minute, but every year, I do a 3 day skills camp. I invite all the best players in the area. I love for you girls to come.",0.3222222222222222,0.5,Positive
+81,FEAR,Are we in a dream right now? Please can somebody pinch me?,0.5357142857142857,0.2857142857142857,Positive
+82,FEAR,Definitely awake.,0.5,0.0,Neutral
+83,JOY,"If we impress coach, she'll put the 3 of us on the team next year.",0.0,0.0,Neutral
+84,ANGER,"Ooh, the Fire Hawks. Finally a team I can get behind.",0.85,-0.2,Negative
+85,COACH ROBERTS,What do ya say?,0.0,0.0,Neutral
+86,RILEY,"YES!! Thank you, coach! Thank you, thank you, thank you!",0.0,0.0,Neutral
+87,BREE,YES!!,0.0,0.0,Neutral
+88,GRACE,YES!!,0.0,0.0,Neutral
+89,COACH ROBERTS,Great. We'll see you tomorrow.,0.75,0.8,Positive
+90,MRS. ANDERSEN,What a big day.,0.1,0.0,Neutral
+91,MR. ANDERSEN,"Ha! You are such an all star. Oh, you're gonna knock the coach's skates off. Hockey scholarship, here we come.",0.5,0.0,Neutral
+92,RILEY,"Dad, stop! It's just hockey camp. I mean who knows what'll happen.",0.6875,-0.3125,Negative
+93,SADNESS,Oooh.,0.0,0.0,Neutral
+94,RILEY,That penalty almost lost us the game today. What if I get to camp and I screw it up?,0.4,-0.4,Negative
+95,MR. ANDERSEN,"Hey, don't talk like that.",0.0,0.0,Neutral
+96,MR. ANDERSEN,Yeah. You did great today honey.,0.75,0.8,Positive
+97,JOY,Exactly! Mom gets it.,0.25,0.3125,Positive
+98,RILEY,"Yeah, I guess.",0.0,0.0,Neutral
+99,MRS. ANDERSEN,We are so proud of you.,1.0,0.8,Positive
+100,MR. ANDERSEN,Night monkey.,0.0,-0.05,Negative
+101,MR. ANDERSEN,"All right, all right. Sleep tight honey.",0.4523809523809524,0.13095238095238093,Positive
+102,SADNESS,"Oh, Riley's so hard on herself.",0.5416666666666666,-0.2916666666666667,Negative
+103,JOY,"But, we can make everything easier. Behold!",0.0,0.0,Neutral
+104,JOY,My Super High Tech Riley Protection System.,0.6033333333333333,0.24666666666666665,Positive
+105,JOY,"Don't look it's fine. This is for all those memories that belong in the back of the mind. Like this penalty one. It's weighing on her so let's lighten the load. A one-way expressway to ""We're not gonna think about that right now"". Whoo!",0.3452380952380952,0.2579365079365079,Positive
+106,FEAR,Wow! ???.,1.0,0.125,Positive
+107,ANGER,??? Jane.,0.0,0.0,Neutral
+108,DISGUST,That's pretty impressive.,1.0,0.625,Positive
+109,SADNESS,You take such good care of Riley.,0.55,0.35,Positive
+110,JOY,"Thanks, I try. Okay, let's do a sweep.",0.35,0.35,Positive
+111,DISGUST,Oh. Here's one where she waved at a guy who was actually waving at a girl behind her.,0.39999999999999997,-0.2,Negative
+112,JOY,"Oh, that was so bad. Good choice.",0.6333333333333333,5.551115123125783e-17,Positive
+113,ANGER,"Oh, Here's when she forgot that girl's name.",0.0,0.0,Neutral
+114,JOY,Oh yeah. that was super awkward.,0.8333333333333333,-0.13333333333333333,Negative
+115,DISGUST,What was her name?,0.0,0.0,Neutral
+116,JOY,"I don't know. Janet or something? Whatever. Let's just get rid of them. We keep the best and... toss the rest! Whoo! Nice work everyone. Alright Andy, the rest of these babies can go to Long Term.",0.5666666666666668,0.5166666666666667,Positive
+117,JOY,"Okay, let's get some shut eye. Big day tomorrow.",0.3,0.25,Positive
+118,SADNESS,"Jane, are you taking that where I think you're taking that?",0.0,0.0,Neutral
+119,JOY,Wanna come this time?,0.0,0.0,Neutral
+120,SADNESS,"Yes. I, I mean no. I, oh no. I, I, I really shouldn't.",0.44375,-0.20625,Negative
+121,JOY,"Ya know, You're the only one who hasn't been to the Belief System.",1.0,0.0,Neutral
+122,SADNESS,"Yeah, its just that it's new, and I know how important it is, and I don't wanna mess it up or break it or burn it to the ground or anything.",0.5431818181818182,0.12045454545454547,Positive
+123,JOY,"Steve, you won't hurt it, I promise. Have I ever steered you wrong before?",0.9,-0.5,Negative
+124,SADNESS,Yeah. Many times.,0.5,0.5,Positive
+125,JOY,"Come on. Where I go, you go.",0.0,0.0,Neutral
+126,SADNESS,Oh my goodness.,0.0,0.0,Neutral
+127,SADNESS,Whoa.,0.0,0.0,Neutral
+128,YOUNG RILEY'S BELIEF,Mom and Dad are proud of me.,1.0,0.8,Positive
+129,JOY,"An oldie, but a goodie.",0.0,0.0,Neutral
+130,RILEY'S BELIEF,I'm kind.,0.9,0.6,Positive
+131,SADNESS,"Aw, that's nice.",1.0,0.6,Positive
+132,RILEY'S BELIEFS,I'm strong. I'm brave. I'm a really good friend.,0.7777777777777778,0.6444444444444445,Positive
+133,RILEY'S BELIEF,I'm a winner.,0.0,0.0,Neutral
+134,JOY,And all those beliefs come together to make our Riley.,0.0,0.0,Neutral
+135,RILEY'S SENSE OF SELF,I'm a good person.,0.6000000000000001,0.7,Positive
+136,SADNESS,What the heck is that?,0.0,0.0,Neutral
+137,DISGUST,"Turn that off, Jane!",0.0,0.0,Neutral
+138,FEAR,"People, it's the apocalypse!",0.0,0.0,Neutral
+139,DISGUST,No! What are you doing?!,0.0,0.0,Neutral
+140,JOY,Um... Okay.,0.5,0.5,Positive
+141,JOY,Whoo! Problem solved.,0.0,0.0,Neutral
+142,SADNESS,Jane?,0.0,0.0,Neutral
+143,WORKER,"Okay, let’s clear it all out. It’s demo day!",0.44166666666666665,0.3125,Positive
+144,JOY,"Demo?! Wait, wait, what’s happening?",0.0,0.0,Neutral
+145,ANGER,What’s going on?!,0.0,0.0,Neutral
+146,JOY,"Whoa, whoa, whoa.",0.0,0.0,Neutral
+147,DISGUST,Who are you people?,0.0,0.0,Neutral
+148,JOY,"Hey uh, are the one in charge here. Could you do me a favor and stop tearing Headquarters apart?",0.0,0.0,Neutral
+149,WORKER,No can do. Didn’t you hear? Permits just came through.,0.0,0.0,Neutral
+150,JOY,Permits? For-for what?,0.0,0.0,Neutral
+151,WORKER,"For expanding the place. You know, for the others.",0.0,0.0,Neutral
+152,JOY,What others?,0.0,0.0,Neutral
+153,WORKER,"They’re not here yet? Ayayay. Hey Margie, you got that console?",0.0,0.0,Neutral
+154,MARGIE,"Yeah, yeah, yeah. Give me a sec.",0.6,-0.1,Negative
+155,JOY,"Hey, hey! What are you doing?",0.0,0.0,Neutral
+156,MARGIE,"Alright, she’s all set.",0.0,0.0,Neutral
+157,JOY,Set with what?,0.0,0.0,Neutral
+158,MR. ANDERSEN,"Come on, Riley, get up! Camp time.",0.0,0.0,Neutral
+159,WORKER,Lunch break!,0.0,0.0,Neutral
+160,JOY,"Wa-wa-wait, wait! You can’t leave it like this.",0.0,0.0,Neutral
+161,WORKER,Don’t worry. We’ll be back.,0.0,0.0,Neutral
+162,MR. ANDERSON,"Come on, we’re gonna be late. Let’s go.",0.6,-0.3,Negative
+163,JOY,Oh no-no-no-no-no-no-no-no-no-no!,0.0,0.0,Neutral
+164,MRS. ANDERSEN,"Riley, you aren’t packed yet?",0.0,0.0,Neutral
+165,RILEY,Argh! You’re always on me! Can’t you just lay off for like one second?!,0.0,0.0,Neutral
+166,DISGUST,"Uh, overreact much.",0.2,0.2,Positive
+167,ANGER,I barely touched it. Those morons broke the console.,0.55,-0.375,Negative
+168,MRS ANDERSEN,"Riley, what’s wrong?",0.9,-0.5,Negative
+169,SADNESS,Oh. Mom looks sad.,1.0,-0.5,Negative
+170,RILEY,I’m the WORST!,1.0,-1.0,Negative
+171,MRS ANDERSEN,Oh no. Honey...,0.0,0.0,Neutral
+172,SADNESS,I barely touched it.,0.1,0.05,Positive
+173,ANGER,That’s what I said.,0.0,0.0,Neutral
+174,DISGUST,Let the professional handle this.,0.1,0.1,Positive
+175,RILEY,I’m too gross to go to camp or anywhere ever again!,0.0,0.0,Neutral
+176,DISGUST,"Oh yeah, this is totally broken.",0.4,-0.4,Negative
+177,MOM'S ANGER,"Well, we all knew this day would come.",0.0,0.0,Neutral
+178,MOM'S SADNESS,"Remember, we agreed not to make a big deal about this.",0.1,0.0,Neutral
+179,MOM'S DISGUST,But she really does stink.,0.2,0.2,Positive
+180,MOM'S ANGER,"Oh, it's bad.",0.6666666666666666,-0.6999999999999998,Negative
+181,MOM'S SADNESS,Remain calm. Stick to the prepared script.,0.75,0.30000000000000004,Positive
+182,MRS ANDERSEN,"You are not gross, honey. You’re just changing. Remember that beautiful butterfly we saw in the park last week?",0.35555555555555557,0.2833333333333333,Positive
+183,MRS. ANDERSEN,"Well, that butterfly began as a caterpillar. And just like that caterpillar, you're about to get your wings.",0.0,0.0,Neutral
+184,JOY,Easy… easy…,0.0,0.0,Neutral
+185,MRS. ANDERSEN,But if you have questions...,0.0,0.0,Neutral
+186,RILEY,"My gosh, mom! Just go away! Ugh!",0.0,0.0,Neutral
+187,MOM'S ANGER,"Well, that’s a preview of the next ten years.",0.0,0.0,Neutral
+188,BREE,Riley! We're gonna have so much fun!,0.2,0.375,Positive
+189,GRACE,Oh my gosh!,0.0,0.0,Neutral
+190,MR. ANDERSEN,"Alright, who’s ready for hockey camp?",0.5,0.2,Positive
+191,JOY,"Okay, until we can figure this out, nobody touch the console unless you really need to.",0.35,0.35,Positive
+192,MR. ANDERSEN,"So, big weekend for us? What do you want to do?",0.1,0.0,Neutral
+193,MRS. ANDERSEN,We can finally clean out the garage or-,0.7000000000000001,0.3666666666666667,Positive
+194,GRACE,I’m so excited.,0.75,0.375,Positive
+195,BREE,Me too!,0.0,0.0,Neutral
+196,RILEY,"I know! How great is next year gonna be? Coach Robert’s team has been state champs like, every year. And Val Ortiz is the captain now.",0.375,0.4,Positive
+197,ANGER,This Valentina Ortiz obsession is out of control.,0.0,0.0,Neutral
+198,DISGUST,"Uh, she made the Fire Hawks when she was only a freshman.",1.0,0.0,Neutral
+199,SADNESS,That’s really hard.,0.5416666666666666,-0.2916666666666667,Negative
+200,RILEY,"All we have to do is be super awesome at camp, coach will put us on the team and we'll be Fire Hawks.",0.8333333333333333,0.6666666666666666,Positive
+201,DISGUST,"Wait, what was that?",0.0,0.0,Neutral
+202,JOY,What was what?,0.0,0.0,Neutral
+203,DISGUST,We got a look. I don’t like this.,0.0,0.0,Neutral
+204,JOY,What? You're paranoid.,0.0,0.0,Neutral
+205,DISGUST,I never miss a look.,0.0,0.0,Neutral
+206,DISGUST,"Enhance 224, one seventy six. Track right, zoom in, right... there!",0.5357142857142857,0.3214285714285714,Positive
+207,ANGER,So?,0.0,0.0,Neutral
+208,DISGUST,She’s hiding something! But what?,0.0,0.0,Neutral
+209,BREE'S SADNESS,What is she doing?,0.0,0.0,Neutral
+210,BREE'S ANGER,She's looking at our look!,0.0,0.0,Neutral
+211,BREE'S DISGUST,"No, it’s much more than that.",0.5,0.5,Positive
+212,BREE'S JOY,She looks the same to me.,0.125,0.0,Neutral
+213,BREE'S DISGUST,"Overlay and compare. See? Riley then, Riley now. Riley then, Riley now.",0.0,0.0,Neutral
+214,BREE'S ANGER,It's so obvious.,0.5,0.0,Neutral
+215,BREE'S SADNESS,But what does it mean?,0.6875,-0.3125,Negative
+216,BREE'S DISGUST,She’s knows we’re hiding something.,0.0,0.0,Neutral
+217,GRACE'S DISGUST,What is happening right now?,0.5357142857142857,0.2857142857142857,Positive
+218,GRACE'S FEAR,I don’t know. I don't know!,0.0,0.0,Neutral
+219,GRACE'S ANGER,I can’t take this anymore!,0.0,0.0,Neutral
+220,GRACE'S DISGUST,You spilled the tea!,0.0,0.0,Neutral
+221,GRACE,Coach Roberts isn’t gonna be our coach next year!,0.0,0.0,Neutral
+222,BREE,Grace!,0.0,0.0,Neutral
+223,BREE,We... we got assigned to a different high school.,0.57,0.08,Positive
+224,DISGUST,Aha! ...Oh. Oh no.,0.0,0.0,Neutral
+225,RILEY,"Oh, okay. Um, Yeah. No big deal.",0.3,0.25,Positive
+226,FEAR,This is a huge spill! I can't breathe!,0.9,0.6250000000000001,Positive
+227,DISGUST,Is she serious right now? How long have they known this?,0.5341269841269841,-0.03253968253968254,Negative
+228,ANGER,Our life! It's over! We can't go to high school without Bree and Grace!,0.5399999999999999,0.2,Positive
+229,SADNESS,We don't know anybody.,0.0,0.0,Neutral
+230,BREE,We’ll still get to hang out.,0.0,0.0,Neutral
+231,GRACE,And we'll have this weekend. Which means we’ll get one last time playing on the same team.,0.09583333333333333,0.0,Neutral
+232,BREE,"Friends are forever, right?",0.5357142857142857,0.2857142857142857,Positive
+233,RILEY,Yeah. Of course.,0.0,0.0,Neutral
+234,GRACE,I can’t wait to get to the rink.,0.0,0.0,Neutral
+235,BREE,When do we get our schedules?,0.0,0.0,Neutral
+236,SADNESS,"Oh, this is so sad.",1.0,-0.5,Negative
+237,JOY,"No wait, Steve!",0.0,0.0,Neutral
+238,ANGER,Don't do it!,0.0,0.0,Neutral
+239,FEAR,I don't have a good grip!,0.6000000000000001,0.875,Positive
+240,DISGUST,"No-no-no-no! Listen, just keep it together until we’re out of the car.",0.0,0.0,Neutral
+241,MR. ANDERSEN,"Here we are. This looks really cool. You sure you don’t need an assistant coach, cause I am available.",0.6462962962962963,0.4166666666666667,Positive
+242,MR. ANDERSEN,Bill!,0.0,0.0,Neutral
+243,MR. ANDERSEN,No? Alright. See you in a few days.,0.1,-0.2,Negative
+244,MR. ANDERSEN,Have fun.,0.2,0.3,Positive
+245,RILEY,"Okay, bye.",0.5,0.5,Positive
+246,MRS. ANDERSEN,"Wait, Riley. Are you sure you have everything? Stick?",0.8888888888888888,0.5,Positive
+247,RILEY,Yes.,0.0,0.0,Neutral
+248,MRS. ANDERSEN,Gloves?,0.0,0.0,Neutral
+249,RILEY,Yes.,0.0,0.0,Neutral
+250,MR. ANDERSEN,Do you have your phone?,0.0,0.0,Neutral
+251,RILEY,Yes of course.,0.0,0.0,Neutral
+252,MR. ANDERSEN,Full charged?,0.55,0.35,Positive
+253,RILEY,Yeah it’s like fifty.,0.0,0.0,Neutral
+254,MR. ANDERSEN,What?,0.0,0.0,Neutral
+255,RILEY,"Dad, it's fine.",0.5,0.4166666666666667,Positive
+256,MR. ANDERSEN,Okay. Call us if you need us. I love you. Go get ‘em.,0.55,0.5,Positive
+257,RILEY,Okay. Love you guys.,0.55,0.5,Positive
+258,MRS. ANDERSEN,Don’t forget the deodorant.,0.0,0.0,Neutral
+259,RILEY,Mom.,0.0,0.0,Neutral
+260,MR. ANDERSEN,Bye monkey.,0.0,-0.05,Negative
+261,JOY,"Okay, now.  [Steve touches the console and Riley tears up.)",0.5,0.5,Positive
+262,JOY,It’s okay. We need this.,0.5,0.5,Positive
+263,DISGUST,"Guys, these are high schoolers. We do not want to be red and puffy, do we?",0.26999999999999996,0.08,Positive
+264,SADNESS,No.,0.0,0.0,Neutral
+265,JOY,"Don’t worry, we’ll have plenty of time to think about this after camp. Now where did Bree and Grace go? Oh, there they are.",0.0,0.0,Neutral
+266,ANGER,"Wait, aren’t those traitors dead to us?",0.4,-0.2,Negative
+267,JOY,Our best friends? No.,0.3,1.0,Positive
+268,RILEY,Oh!,0.0,0.0,Neutral
+269,VAL,Hey. Are you okay?,0.5,0.5,Positive
+270,JOY,Everybody act regular! It’s Valentina Ortiz!,0.07692307692307693,0.0,Neutral
+271,DISGUST,We gotta say something!,0.0,0.0,Neutral
+272,VAL,Hey. Hi. I’m Val.,0.0,0.0,Neutral
+273,RILEY,I know. You're the varsity captain. You set the all time goal record as a junior. Your favorite color's red. And your skates are-,0.5,0.25,Positive
+274,DISGUST,What are we saying?,0.0,0.0,Neutral
+275,SADNESS,We're so uncool.,0.0,0.0,Neutral
+276,FEAR,Why are we still holding her hand!?,0.0,0.0,Neutral
+277,RILEY,-like me.,0.0,0.0,Neutral
+278,VAL,"Oh. You're the one coach told us about. Riley, from Michigan, right?",0.5357142857142857,0.2857142857142857,Positive
+279,ANGER,"It's Minnesota, sweetie!",0.0,0.0,Neutral
+280,DISGUST,No-no-no-no! We cannot correct Val Ortiz.,0.0,0.0,Neutral
+281,RILEY,"Yeah, that’s me. Riley from good old Michigan.",0.4,0.39999999999999997,Positive
+282,JOY,Orange? Who made the console orange?,0.0,0.0,Neutral
+283,ANGER,Do I look orange?,0.0,0.0,Neutral
+284,FEAR,I didn’t touch it.,0.0,0.0,Neutral
+285,DISGUST,Orange is not my color.,0.0,0.0,Neutral
+286,SADNESS,Not me.,0.0,0.0,Neutral
+287,ANXIETY,"Hello, everybody!",0.0,0.0,Neutral
+288,ALL,WAH!,0.0,0.0,Neutral
+289,ANXIETY,"Oh my gosh. I am just such a huge fan of yours!  And now, here I am meeting you, face to face. Okay. How can I help?",0.6333333333333333,0.3333333333333333,Positive
+290,JOY,Uh...,0.0,0.0,Neutral
+291,ANXIETY,"I can take notes, get coffee, manage your calendar, walk your dog, carry your things, watch you sleep.",0.0,0.0,Neutral
+292,JOY,"Wow, you have a lot of energy. Maybe you could just stay in once place.",1.0,0.1,Positive
+293,ANXIETY,Anything. Just call my name and I’m here for you.,0.0,0.0,Neutral
+294,JOY,"Okay, love that. What was your name again?",0.55,0.5,Positive
+295,ANXIETY,Oh! I’m sorry. I can ahead of myself. I’m Alex. I’m one of Riley’s new emotions and we are just super jazzed to be here.  Where can I put my stuff?,0.7070707070707071,-0.01010101010101011,Negative
+296,DISGUST,"Ah-ah-ah. What do you mean ""we""?",0.6875,-0.3125,Negative
+297,ENVY,I wish I was as tall as all of you.,0.0,0.0,Neutral
+298,ANGER,Who the heck are you?,0.0,0.0,Neutral
+299,ENVY,"I’m Enrique. Oh, look at your hair.",0.0,0.0,Neutral
+300,DISGUST,Oh yeah. Not happening.,0.0,0.0,Neutral
+301,ENVY,Look at her hair! We need hair like that!,0.0,0.0,Neutral
+302,RILEY,"My gosh, I love the red in your hair.",0.3,0.25,Positive
+303,VAL,Oh.-,0.0,0.0,Neutral
+304,DISGUST,What are you doing?!,0.0,0.0,Neutral
+305,RILEY,"Hey, maybe you wanna make the team? I can join team red head, too. Yeah, yeah!",0.0,0.0,Neutral
+306,EMBARRASSMENT,Oh...!,0.0,0.0,Neutral
+307,ANGER,"Okay, who’s this guy?",0.5,0.5,Positive
+308,SADNESS,"What’s your name, big fella?",0.1,0.0,Neutral
+309,ANXIETY,"That’s Embarrassment. He’s not really big on eye contact or like good talking, but he’s a really sweet guy.",0.45,0.3499999999999999,Positive
+310,JOY,"Well, welcome to Headquarters, Embarrassment. Oh. We're doin' a fist- No. Oh. No? Goin' high. You got a real sweaty palm there, buddy.",0.58,0.3866666666666667,Positive
+311,EMBARRASSMENT,,0.0,0.0,Neutral
+312,VAL,Hey. You wanna come with me actually? We can meet some of the other Fire Hawks.,0.2375,-0.0625,Negative
+313,ANXIETY,"Oh, this is exciting. But we can’t let her know we’re excited.",0.775,0.3375,Positive
+314,RILEY,"Yeah, sounds cool.",0.65,0.35,Positive
+315,ANGER,What emotion was that?,0.0,0.0,Neutral
+316,ANXIETY,That’s Pierre.,0.0,0.0,Neutral
+317,JOY,En- what?,0.0,0.0,Neutral
+318,ENNUI,Pierre . It’s what you would call the boredom.,0.0,0.0,Neutral
+319,JOY,"Well, come on up here, En-wer. Am I saying it right? En-wha. No. Oh! Nicknames! I’m gonna call you Oui-Oui.",0.5357142857142857,0.4464285714285714,Positive
+320,ENNUI,Non.,0.0,0.0,Neutral
+321,FEAR,How are you driving?,0.0,0.0,Neutral
+322,ENNUI,Console app.,0.0,0.0,Neutral
+323,ANGER,Hey! Stop it. That’s enough.,0.5,0.0,Neutral
+324,JOY,"Now, now, I know new emotions can sometimes feel unhelpful at first and you just wanna...say to them. ""Why are you so annoying?"" But, I've learned that every emotion is good for Riley. Even this turkey.",0.571969696969697,0.07159090909090907,Positive
+325,ANGER,"Okay, fine.",0.5,0.45833333333333337,Positive
+326,RILEY,Cool. Lead the way.,0.65,0.35,Positive
+327,VAL,"Alright, grab your stuff and follow me.",0.0,0.0,Neutral
+328,SADNESS,"Oh, but what about our friends?",0.0,0.0,Neutral
+329,ENVY,Val is our future.,0.125,0.0,Neutral
+330,ANXIETY,"Yes. I agree completely. We need new friends or else we’ll be totally alone in high school. Right, Jane?",0.536051948051948,0.1364155844155844,Positive
+331,JOY,"Well, I mean maybe.",0.6875,-0.3125,Negative
+332,ANXIETY,Here we go.,0.0,0.0,Neutral
+333,RILEY,Wait up! Thanks for showing me around.,0.2,0.2,Positive
+334,JOY,Wait! Why did you do that?,0.0,0.0,Neutral
+335,ANXIETY,"Sorry, what did I do?",1.0,-0.5,Negative
+336,JOY,We just left our best friends behind.,0.3333333333333333,0.19999999999999998,Positive
+337,ANXIETY,But what about the new ones we’re about to meet?,0.45454545454545453,0.13636363636363635,Positive
+338,JOY,"No. Okay, these next three days need to be about Bree and Grace.",0.25,-0.125,Negative
+339,ANXIETY,"Jane, th-the next three days could determine the next four years of our lives.",0.0,0.0,Neutral
+340,JOY,I think that’s overstating things a bit.,0.0,0.0,Neutral
+341,ENNUI,Ooh la la… Jane is so old school.,0.2,0.1,Positive
+342,JOY,What?,0.0,0.0,Neutral
+343,ANXIETY,"Look, we all have a job to do. You make Riley happy, Steve makes her sad, Frank protects her from the scary stuff she can see and my job is to protect her from the scary stuff she can’t see. I plan for the future. Oh! I can show you. You’re gonna love this.",0.7875,-0.033333333333333326,Negative
+344,JOY,"Oh, I was using that as a cupholder.",0.0,0.0,Neutral
+345,ANXIETY,"Okay. So my team has run all the data and we’re looking at the following likely scenarios. First, we don’t take this camp seriously and we goof off with Bree and Grace. Riley looks really uncool in front of Val. She fails to impress the coach, does not become a Fire Hawk and finally arrives at high school. She has no one, she eats alone and only the teachers know her name.",0.564,0.027666666666666673,Positive
+346,DISGUST,Ew!,0.0,0.0,Neutral
+347,FEAR,"Okay, you and I are gonna be friends.",0.5,0.5,Positive
+348,SADNESS,"Oh, this is a sad story.",1.0,-0.5,Negative
+349,JOY,"It's a ridiculous story.  Look, again, Love the energy but you’re being silly. None of this will actually happen.",0.64375,-0.08333333333333333,Negative
+350,ANXIETY,"Right, whatever you say, you're the boss.",0.5357142857142857,0.2857142857142857,Positive
+351,NOSTALGIA,Remember when we all finally came up to Headquarters?,1.0,0.0,Neutral
+352,ENNUI,"That was like thirty seconds ago, Nancy.",0.0,0.0,Neutral
+353,NOSTALGIA,"Yeah, those were the days.",0.0,0.0,Neutral
+354,ANXIETY,"Nancy! You aren't supposed to be here yet! You still have about ten years, two graduations, and a best friend's wedding before you're invited, but I will keep you in the loop I promise!",0.15,0.5,Positive
+355,VAL,"Alright, you ready Riley?",0.5,0.2,Positive
+356,ENVY,"Hey, hey, everybody focus. Val’s leading us into their holy inner sanctum.",0.16666666666666666,0.0,Neutral
+357,VAL,Here we are.,0.0,0.0,Neutral
+358,ENVY,These girls are so cool!,0.65,0.4375,Positive
+359,DISGUST,And older. We are not changing in front of them.,0.3333333333333333,0.16666666666666666,Positive
+360,JOY,It's fine. Locker rooms are places of mutual respect.,0.5,0.4166666666666667,Positive
+361,VAL,Hey. Come on. I want you to meet the other Fire Hawks.,0.375,-0.125,Negative
+362,RILEY,Hey.,0.0,0.0,Neutral
+363,VAL,Riley is from Michigan.,0.0,0.0,Neutral
+364,FEAR,"Okay, we’re stuck with that.",0.5,0.5,Positive
+365,DANI,Oh cool. Where in Michigan are you from?,0.65,0.35,Positive
+366,RILEY,Uh...,0.0,0.0,Neutral
+367,FEAR,Oh no. What now?,0.0,0.0,Neutral
+368,JOY,Okay. Looks like we’re committing to this. Cities in Michigan.,0.5,0.5,Positive
+369,ANXIETY,We need to make something up.,0.0,0.0,Neutral
+370,RILEY,I'm from all over.,0.0,0.0,Neutral
+371,DANI,Nice. See ya out there.,1.0,0.6,Positive
+372,VAL,"Hey, you wanna sit with us?",0.0,0.0,Neutral
+373,ANXIETY,Oh she wants to sit with us!  Everything is beautiful.,0.55,0.55,Positive
+374,JOY,There’s not enough room for Bree and Grace. Oh. Let's go sit over there.,0.5,0.0,Neutral
+375,RILEY,"I was gonna go save seats for my friends, but thanks anyway.",0.2,0.2,Positive
+376,VAL,"Oh. Uh, yeah. Okay. No worries.",0.5,0.5,Positive
+377,JOY,"See, was that so hard?",0.5416666666666666,-0.2916666666666667,Negative
+378,ANXIETY,"No, you’re totally right. That decision’s not gonna haunt us for the rest our lives at all.",0.5357142857142857,0.2857142857142857,Positive
+379,RILEY,Bree and Grace!,0.0,0.0,Neutral
+380,JOY,Time to celebrate!,0.0,0.0,Neutral
+381,RILEY,Say Awoooga!,0.0,0.0,Neutral
+382,RILEY,Awoooga!,0.0,0.0,Neutral
+383,BREE,Awoooga!,0.0,0.0,Neutral
+384,GRACE,Awoooga!,0.0,0.0,Neutral
+385,COACH ROBERTS,"Alright ladies, let’s all settle in.",0.0,0.0,Neutral
+386,ANXIETY,"Uh, Jane?",0.0,0.0,Neutral
+387,COACH ROBERTS,"Ladies, settle in means settle down. I need your focus, which means now I'm gonna need your cell phones. All of them.",0.2888888888888889,-0.15555555555555559,Negative
+388,COACH ROBERTS,"Ah-ah-ah! You’re here to work. Not goof around, Got that Andersen?",0.0,0.0,Neutral
+389,RILEY,"Yes, coach.",0.0,0.0,Neutral
+390,COACH ROBERTS,Please put all your phones in the basket. You can get them back at the end of camp.,0.0,0.0,Neutral
+391,GRACE,"Wow, the coach is so serious.",0.8333333333333333,-0.11666666666666665,Negative
+392,ANXIETY,"Jane, I’m just curious. Maybe um, I could…",1.0,-0.1,Negative
+393,JOY,Thank you. Not now.,0.0,0.0,Neutral
+394,RILEY,"I know, right?",0.5357142857142857,0.2857142857142857,Positive
+395,COACH ROBERTS,"You think this is funny. Uh-huh. Well you know what else is funny? Skating lines. Now hit the ice, ladies!",1.0,0.28125,Positive
+396,FIRE HAWKS MEMBER,"Great job, Michigan.",0.75,0.8,Positive
+397,FIRE HAWKS MEMBER,"Thanks a lot, new girl.",0.32727272727272727,0.16818181818181818,Positive
+398,ENNUI,Bravo Jane. She's totally fitting in now.,0.5,0.5,Positive
+399,JOY,"Oh, thanks so much, Oui-Oui.",0.2,0.2,Positive
+400,COACH ROBERTS,You're lagging behind Andersen! Skate harder!,0.35,-0.3125,Negative
+401,COACH ROBERTS,"Alright ladies, take a breather. Then we'll divide you into teams.",0.0,0.0,Neutral
+402,???,That Michigan girl is off to rough stuff.,0.4,-0.1,Negative
+403,ANXIETY,"Oh no, are they talking about us?",0.0,0.0,Neutral
+404,DANI,Yeah. There’s no way coach is putting her on the team if she can’t get it together,0.0,0.0,Neutral
+405,VAL,"Uh, okay Dani. Like you had it all together when you were a freshman?",0.5,0.5,Positive
+406,DANI,Ugh! I wasn’t that immature.,0.0,0.0,Neutral
+407,SADNESS,"Oh.  I got you, big guy.",0.1,0.0,Neutral
+408,ENVY,"Oh, I always wanted people to talk about us but not like this.",0.0,0.0,Neutral
+409,SADNESS,"Oh Jane, what do we do now?",0.0,0.0,Neutral
+410,JOY,"Um, we can just um...",0.0,0.0,Neutral
+411,ANXIETY,I have an idea.,0.0,0.0,Neutral
+412,JOY,Okay.,0.5,0.5,Positive
+413,ANXIETY,"If we can get Val on our side, everything will be great.",0.75,0.8,Positive
+414,RILEY,"Uh, Val?",0.0,0.0,Neutral
+415,VAL,"Oh. Hey Riley, what’s up?",0.0,0.0,Neutral
+416,RILEY,"Uh-uh, I... I’m so sorry. I didn't mean to get the whole team skating lines. I feel terrible. I respect you so much, I would never do anything to mess you up.",0.5770833333333333,-0.26458333333333334,Negative
+417,JOY,"Uh, that’s laying it on a bit thick, don’t you think?",0.475,-0.30000000000000004,Negative
+418,ANXIETY,Shh. Jane.,0.0,0.0,Neutral
+419,RILEY,You're a great hockey player and you lead the team so amazingly and I-I-I really look up to you.,0.6166666666666666,0.5333333333333333,Positive
+420,VAL,"Okay, okay. Thanks. Listen, coach was pretty hard on you today. But it's not a bad thing. It means you're on her radar",0.5680555555555555,0.25138888888888883,Positive
+421,RILEY,Really?,0.2,0.2,Positive
+422,VAL,"Listen, I'm glad you came to talk with me. Hey, let’s try to be on the same team later. Okay?",0.40625,0.25,Positive
+423,RILEY,"Oh, yeah. Cool.",0.65,0.35,Positive
+424,ENVY,Wow. I wish I could do that!,1.0,0.125,Positive
+425,ENNUI,Good job. Wow.,0.8,0.39999999999999997,Positive
+426,FEAR,Wow!,1.0,0.125,Positive
+427,ANXIETY,"Oh, you guys, I mean it really wasn’t anything. I'm just trying to help.",0.44375,-0.056249999999999994,Negative
+428,JOY,"I agree. Great job, Alex. I step back, you stepped in, you got Riley back on track, now I’m ready to step back in.",0.25,0.2,Positive
+429,ANXIETY,"Uh, but that was just part one of my plan.",0.0,0.0,Neutral
+430,JOY,There’s a part two?,0.0,0.0,Neutral
+431,ANXIETY,"A good plan has many parts, Jane.",0.55,0.6,Positive
+432,COACH ROBERTS,"Okay ladies, we’re gonna form your teams for the rest of camp. Now split yourselves down the middle. Team one on the right, team two on the left.",0.26492063492063495,0.12603174603174602,Positive
+433,BREE,Let’s do this.,0.0,0.0,Neutral
+434,GRACE,"We’re on the same team, right?",0.33035714285714285,0.14285714285714285,Positive
+435,RILEY,Right.,0.5357142857142857,0.2857142857142857,Positive
+436,ENVY,Val wants us!,0.1,0.25,Positive
+437,JOY,But we promised Bree and Grace.,0.0,0.0,Neutral
+438,ANXIETY,"Jane, we have to plan for the future.",0.125,0.0,Neutral
+439,ANXIETY,"Come on, Riley, move. Move those feet. Val's on team one, you want to be on team one, let’s go!",0.0,0.0,Neutral
+440,JOY,She made a promise to her friends. She’s not gonna break it.,0.0,0.0,Neutral
+441,ANXIETY,"Oh, you’re so right, Jane.",0.5357142857142857,0.2857142857142857,Positive
+442,JOY,What are you doing?,0.0,0.0,Neutral
+443,JOY,"No, you can’t have that! Put that back!",0.0,0.0,Neutral
+444,ANXIETY,"Jane, I don’t mean to overstep, but it has to be done!",0.6875,-0.390625,Negative
+445,JOY,"Wait, what are you — no!",0.0,0.0,Neutral
+446,JOY,No…,0.0,0.0,Neutral
+447,ANXIETY,"I know change is scary, bu-but watch.",1.0,-0.5,Negative
+448,VAL,"Alright, welcome to our team, Michigan.",0.9,0.8,Positive
+449,JOY,That is not Riley.,0.0,0.0,Neutral
+450,ANXIETY,"I know, it’s a better Riley.",0.5,0.5,Positive
+451,ENVY,A Riley who won’t be alone next year.,0.0,0.0,Neutral
+452,ANXIETY,"We build her a new sense of self, a brand new her.",0.45454545454545453,0.13636363636363635,Positive
+453,JOY,No no no! You can't go down there with that.,0.2888888888888889,-0.15555555555555559,Negative
+454,ANGER,Over my dead flaming body!,0.4,-0.25,Negative
+455,ANXIETY,I am truly sorry. I was so looking forward to working with you guys.,1.0,-0.5,Negative
+456,JOY,What do you think you're doing?,0.0,0.0,Neutral
+457,ANGER,Get off me!,0.0,0.0,Neutral
+458,ANXIETY,"Riley’s life is more complex now. It requires more specific emotions than all of you. You just aren’t what she needs anymore, Jane.",0.38125,0.175,Positive
+459,FEAR,How dare you madam?,0.0,0.0,Neutral
+460,JOY,You can’t just bottle us up!,0.0,0.0,Neutral
+461,ANXIETY,"Oh, that’s a great idea.",0.75,0.8,Positive
+462,ANXIETY,"It’s not forever, it’s just until Riley makes varsity or until she turns eighteen, or ma-maybe forever. I don't know. We'll have to see. Uh, bye!",0.0,0.0,Neutral
+463,JOY,Alex! Riley needs us!,0.0,0.0,Neutral
+464,ANXIETY,"Okay. Don’t worry, Riley. You're in good hands. Now let's change everything about you.",0.55,0.6,Positive
+465,ENVY,"Quick question: How do we build a new Riley, which I'm loving by the way. Amazing concept, if it took them thirteen years to build the old one?",0.600909090909091,0.35393939393939394,Positive
+466,ANXIETY,"Well, good news is we’re not starting from scratch.",0.35000000000000003,0.35,Positive
+467,ENVY,I wanna plant one.,0.0,0.0,Neutral
+468,ANXIETY,Next time.,0.0,0.0,Neutral
+469,RILEY'S BELIEF,"If I'm a Fire Hawk, I won’t be alone.",0.0,0.0,Neutral
+470,SADNESS,We’re gonna be here forever!,0.0,0.0,Neutral
+471,FEAR,Where are you putting us?,0.0,0.0,Neutral
+472,DAVE,The same place we keep all of Riley's secrets.,0.125,0.0,Neutral
+473,FEAR,We’re not secrets.,0.0,0.0,Neutral
+474,FRANK,"Oh yeah, yeah, yeah. We’re not secrets, we’re making a big mistake.",0.1,0.0,Neutral
+475,DAVE,Never heard that before.,0.0,0.0,Neutral
+476,FEAR,We are suppressed emotions!,0.0,0.0,Neutral
+477,SADNESS,Poor Riley!,0.6,-0.5,Negative
+478,ANGER,Get us out right now out of here!,0.5357142857142857,0.3571428571428571,Positive
+479,DISGUST,We don't belong in a jar!,0.0,0.0,Neutral
+480,JOY,No no no. Riley’s gonna be fine. Totally fine.,0.5,0.4166666666666667,Positive
+481,BLOOFY,Hey there. You know what we call that? Denial. Can you say denial?,0.0,0.0,Neutral
+482,EMOTIONS,Ah!,0.0,0.0,Neutral
+483,BLOOFY,Hi friends. Welcome! It’s so good to have you here with us today.,0.75,0.85,Positive
+484,JOY,It’s Bloofy!,0.0,0.0,Neutral
+485,DISGUST,From that preschool show Riley used to like?,0.0,0.0,Neutral
+486,BLOOFY,"That’s right and here’s a little secret.  Riley still likes the show. Stomp like an elephant, Scurry like a mouse! Make your way down to Bloofy's House!",0.5061507936507936,-0.1490575396825397,Negative
+487,ANGER,Please kill me.,0.0,0.0,Neutral
+488,JOY,"Bloofy, we’re in a real pickle, could you help us get out of here?",0.30000000000000004,0.2,Positive
+489,BLOOFY,"Uh oh, we’re gonna need your help. Can you find a way out?",0.0,0.0,Neutral
+490,ANGER,Who are you talking to?,0.0,0.0,Neutral
+491,BLOOFY,My friends.  Do you see a key? I don’t either.,1.0,0.0,Neutral
+492,FEAR,"Okay, we’re doomed.",0.5,0.5,Positive
+493,LANCE SLASHBLADE,Indeed. Welcome to your eternal fate.,0.9,0.8,Positive
+494,DISGUST,Lance Slashblade?!,0.0,0.0,Neutral
+495,SADNESS,But he’s a video game character. Why is he here?,0.4,-0.4,Negative
+496,DISGUST,"Yeah, I always thought Riley had a secret crush on him.",0.7,-0.4,Negative
+497,JOY,I never saw the appeal.,0.0,0.0,Neutral
+498,LANCE SLASHBLADE,"I long to be a hero, but darkness haunts my past.",0.325,-0.15,Negative
+499,SADNESS,"Oh, I didn't knew.",0.0,0.0,Neutral
+500,ANGER,"Oh, I get it.",0.0,0.0,Neutral
+501,FEAR,I'm in a 100 percent.,0.0,0.0,Neutral
+502,DISGUST,I just wanna brush his hair.,0.0,0.0,Neutral
+503,FEAR,"Uh, who’s that?",0.0,0.0,Neutral
+504,BLOOFY,That’s Riley’s Deep Dark Secret.,0.5,-0.18333333333333335,Negative
+505,FEAR,Wha- What is the secret?,0.7,-0.4,Negative
+506,LANCE SLASHBLADE,You don’t want to know.,0.0,0.0,Neutral
+507,JOY,"Riley’s secrets, a rogue emotion has taken over Headquarters. Now if you could just open the jar...",0.5,0.0,Neutral
+508,BLOOFY,"Hey kids. Let's learn some Latin. Do you know quid pro quo? We get you out of that jar, then you can get us out of this safe.",0.5,0.5,Positive
+509,LANCE SLASHBLADE,No Bloofy. Their destiny is not ours to change. We were all banished here. Dented unfit. Worthless.,0.9,-0.8,Negative
+510,DISGUST,Don’t you dare say that. You do not deserve to be thrown away.,0.0,0.0,Neutral
+511,JOY,"Uh, one second, Lance. Don't you remember his power move?",0.0,0.0,Neutral
+512,GRACE,I'm coming for you Riley!,0.0,0.0,Neutral
+513,RILEY,Oh yeah? Watch this!,0.0,0.0,Neutral
+514,RILEY,Come on!,0.0,0.0,Neutral
+515,DISGUST,"You listen to me, Lance Slashblade. No one is totally worthless.",0.9,-0.8,Negative
+516,LANCE SLASHBLADE,But I am a warrior cursed with a feeble attack.,1.0,-0.5,Negative
+517,DISGUST,Then you must make your curse your gift.,0.0,0.0,Neutral
+518,LANCE SLASHBLADE,Shield yourselves my friends. For I shall set you all free!,0.8,0.5,Positive
+519,JOY,"Hey, little help?",0.5,-0.1875,Negative
+520,BLOOFY,"Great job, Dark Secret. Now it’s your turn to help us. My pouch has just the thing to get us out of here. Everybody say “Oh, Pouchy!”",0.6166666666666666,0.05000000000000001,Positive
+521,EVERYONE,"Oh, Pouchy!",0.0,0.0,Neutral
+522,POUCHY,"Hi, everybody. I’m Pouchy!",0.0,0.0,Neutral
+523,BLOOFY,"Pouchy, we need to escape. Do you have anything that can help us?",0.0,0.0,Neutral
+524,POUCHY,I have lots of items. Which one do you think will work the best? A tomato? A frog? Or exploding dynamite?,0.3,1.0,Positive
+525,ANGER,"Oh, for cryin' out loud!",0.8,0.125,Positive
+526,BLOOFY,"Yay, we did it, everyone! Let's all sing the ""We did it"" song!",0.0,0.0,Neutral
+527,EMOTIONS,NO TIME!!!,0.0,0.0,Neutral
+528,LANCE SLASHBLADE,"Thank you, friends. I must.. I must be leaving you.",0.0,0.0,Neutral
+529,SADNESS,What about Dark Secret?,0.55,-0.275,Negative
+530,DARK SECRET,Not yet.,0.0,0.0,Neutral
+531,JOY,"Yeah, that’s probably best for everybody.",0.3,1.0,Positive
+532,FRANK,Hey! Who let you out?! Get back in there!,0.0,0.0,Neutral
+533,DISGUST,What are we gonna do?,0.0,0.0,Neutral
+534,LANCE SLASHBLADE,"Oh, disgusted one, as you once believed in me, I will now believe in myself.",1.0,-1.0,Negative
+535,FEMALE MIND COP,What?,0.0,0.0,Neutral
+536,BIG MIND COP,"What’s happening?! Hey, hey!",0.0,0.0,Neutral
+537,DAVE,"Frank, help!",0.0,0.0,Neutral
+538,FRANK,Hold on!,0.0,0.0,Neutral
+539,DISGUST,Lance!,0.0,0.0,Neutral
+540,LANCE SLASHBLADE,"Goodbye, friends! Hello, destiny!",0.0,0.0,Neutral
+541,JOY,"Well, there's a lift for every pop. Come on!",0.0,0.0,Neutral
+542,FEAR,What do we do? What do we do?,0.0,0.0,Neutral
+543,JOY,"Andy, stop! Where are you going?",0.0,0.0,Neutral
+544,ANGER,"Um, back to Headquarters? To help Riley!",0.0,0.0,Neutral
+545,JOY,Riley’s not up there. She’s out there. We can’t go back without her sense of self.,0.0,0.0,Neutral
+546,FEAR,You want us to go all the way to the back of the mind? Are you out of your mind?,0.0,0.0,Neutral
+547,SADNESS,"Jane, how do we-",0.0,0.0,Neutral
+548,MIND COP,Freeze!,0.0,0.0,Neutral
+549,JOY,Come on!,0.0,0.0,Neutral
+550,MIND COP,Hold it right there!,0.5357142857142857,0.3571428571428571,Positive
+551,DISGUST,"How do we get there? Do you even have a plan, Jane?",0.0,0.0,Neutral
+552,FEAR,I bet Alex would have a really good plan.,0.6000000000000001,0.7,Positive
+553,JOY,"Of course I have a plan. Who doesn’t have a plan? Look, she’s not the only one who can forget the future. First, all we have to do is um… give me second. Oh! Follow the stream of consciousness, And then we take a nice easy float all the way to the back of the mind.",0.47023809523809523,0.18333333333333332,Positive
+554,FEAR,Where all the bad memories are.,0.6666666666666666,-0.6999999999999998,Negative
+555,JOY,Exactly. And there we’ll find the Riley we know and love. We’ll put her sense of self back and then Riley will be Riley again.,0.2833333333333333,0.25,Positive
+556,FEAR,"Okay, I’m gonna give it to you. That could actually work.",0.3,0.25,Positive
+557,JOY,"Yeah, it could! And then I tell Alex: “Hey, don’t worry so much anymore”, and she’ll say. “Wow Jane, I never thought of that before. Thank you."" And then we hug and become best friends.",0.5,0.43333333333333335,Positive
+558,ANGER,And then I punt her into the dump.,0.0,0.0,Neutral
+559,JOY,Wh- No! Andy!,0.0,0.0,Neutral
+560,ANGER,Okay fine. no punting.,0.5,0.45833333333333337,Positive
+561,JOY,Don’t worry. I know right where the stream is. Steve and I have been here before. Oh.,0.5357142857142857,0.2857142857142857,Positive
+562,DISGUST,"Jane, this is a dead end.",0.4,-0.2,Negative
+563,FEAR,Those are the worst kinds of ends!,1.0,-1.0,Negative
+564,SADNESS,Everything's changing so fast.,0.6,0.2,Positive
+565,ANGER,"So, we’re lost.",0.0,0.0,Neutral
+566,JOY,"No, you're never lost if you're havin' fun!",0.2,0.375,Positive
+567,DISGUST,"No one is having fun, Jane.",0.2,0.3,Positive
+568,JOY,"Oh come on, look at Steve. She’s havin' a great time!",0.75,1.0,Positive
+569,ANGER,I thought you knew where you were going.,0.0,0.0,Neutral
+570,JOY,"I do. I did. I, I just need a moment.",0.0,0.0,Neutral
+571,DISGUST,She doesn't know.,0.0,0.0,Neutral
+572,FEAR,We’re stuck here!,0.0,0.0,Neutral
+573,SADNESS,Oh! Riley’s awake.,0.0,0.0,Neutral
+574,JOY,"Wait, she’s up too early. What are they doing to her? Come on! We’ll find another way. Don’t worry, Riley. We’re coming.",0.3,0.125,Positive
+575,ENNUI,Why are we up so early?,0.3,0.1,Positive
+576,ANXIETY,"Because mon ami, we need to speed things up. And that means we hit the ice early and practice like we've never practiced before.",0.3,0.1,Positive
+577,ENNUI,Aren't we already good at hockey?,0.6000000000000001,0.7,Positive
+578,ENVY,"We’re good, but the Fire Hawks are great.",0.675,0.75,Positive
+579,ANXIETY,"That's right. Every time we miss, we skate a lap around the rink. Hockey is not a game, it is a sport.",0.46785714285714286,0.24285714285714285,Positive
+580,ENVY,That was amazing.,0.9,0.6000000000000001,Positive
+581,ANXIETY,We need to be that good every time. Let’s run it again.,0.6000000000000001,0.7,Positive
+582,VAL,"Hey, I see I'm not the only one who likes to start early.",0.65,0.05,Positive
+583,ANXIETY,"You guys, it’s Val. We had the same idea!",0.125,0.0,Neutral
+584,ENVY,We’re basically the same person. We’re gonna be best friends.,0.2125,0.5,Positive
+585,VAL,How long have we been here?,0.4,-0.05,Negative
+586,RILEY,I-I don't know. Maybe an hour? I just wanted to get in some extra ice time.,0.1,0.0,Neutral
+587,VAL,I’m the same way.,0.125,0.0,Neutral
+588,ANXIETY,Oh my gosh. She gets us.,0.0,0.0,Neutral
+589,VAL,See? I told the other girls you'd figure it out. You get what it takes to be the best.,0.3375,0.4375,Positive
+590,ENVY,Look at us. This is going great.,0.75,0.8,Positive
+591,ANXIETY,"Yeah, but we need Val to really like us.",0.2,0.2,Positive
+592,ENVY,Oh! We should ask Val lots of questions. People love talking about themselves.,0.6,0.5,Positive
+593,RILEY,So what was your freshman year on the Fire Hawks like?,0.0,0.0,Neutral
+594,VAL,I mean. It was a lot of work. Like a lot. But It’s also how I met my best friends.,0.49375,0.34375,Positive
+595,ANXIETY,Val is sharing things with us!,0.0,0.0,Neutral
+596,VAL,"Hey, a few of us are just gonna hang out tonight, order some food. You should come!",0.1,-0.25,Negative
+597,ENVY,Oh. An exclusive invitation. We’re going!,0.0,0.0,Neutral
+598,RILEY,Really?,0.2,0.2,Positive
+599,VAL,Definitely! It'll be fun.,0.2,0.3,Positive
+600,COACH ROBERTS,"Alright ladies, let’s warm up.",0.6,0.6,Positive
+601,GRACE,"Hey, Riley.",0.0,0.0,Neutral
+602,RILEY,Hi.,0.0,0.0,Neutral
+603,ENVY,We are not sharing Val with them.,0.0,0.0,Neutral
+604,VAL,Early mornings make me so hungry.,0.3,0.1,Positive
+605,RILEY,"I know, right? I'd give anything for a piece of pizza right now.",0.5357142857142857,0.2857142857142857,Positive
+606,VAL,Yes!,0.0,0.0,Neutral
+607,JOY,See? I’d told ya I found it. The stream of consciousness.,0.0,0.0,Neutral
+608,SADNESS,But Jane...,0.0,0.0,Neutral
+609,FEAR,Whoa! Our girl is hungry!,0.0,0.0,Neutral
+610,JOY,Hop on something delicious.,1.0,1.0,Positive
+611,SADNESS,Jane...,0.0,0.0,Neutral
+612,DISGUST,Ooh. Deep dish.,0.4,0.0,Neutral
+613,FEAR,And it's still warm.,0.6,0.6,Positive
+614,JOY,"Extra cheese baby! Steve, come on.",0.1,0.0,Neutral
+615,SADNESS,"But I’ve been trying to tell you! We can’t take the tube back, Jane! Someone has to be at the console to recall us.",0.0,0.0,Neutral
+616,DISGUST,She’s right. We’d be stranded.,0.5357142857142857,0.2857142857142857,Positive
+617,FEAR,Yeah. Alex would have thought about that.,0.0,0.0,Neutral
+618,JOY,"Well I doubt it. Fine. Okay, Uh... So, someone’s gonna have to crawl up that tube and go back to headquarters. And at the right moment, bring us back.",0.3071428571428571,0.2404761904761905,Positive
+619,ANGER,"Oh, I’ll do it! I’ll pound that orange-",0.0,0.0,Neutral
+620,JOY,"I don’t think so, punty.",0.0,0.0,Neutral
+621,FEAR,Okay. Here's the thing..,0.5,0.5,Positive
+622,JOY,You were never an option.,0.0,0.0,Neutral
+623,FEAR,Thank you.,0.0,0.0,Neutral
+624,DISGUST,"You want me to crawl through a tube, in this? Yeah, not happening.",0.0,0.0,Neutral
+625,SADNESS,"Oh, no. Not me.",0.0,0.0,Neutral
+626,JOY,"Yes, Steve, you can do it. You know the console better than everybody. You've read the manuals cover to cover.",0.5,0.5,Positive
+627,SADNESS,"I mean you say that, but I know a lot less about Manual 28 chapter 7 ""How to Recall Non-Memory Objects"" than most folks realize.",0.41805555555555557,0.006944444444444457,Positive
+628,JOY,You’re proving my point for me. Steve. That sounds like a yes.,0.0,0.0,Neutral
+629,MIND WORKER,Where is everybody? You on break again?,0.0,0.0,Neutral
+630,JOY,"Ooh! Walkie Talkies! Here! Check, check, check. Can you hear me? I'm gonna press a button. Go for Jane. Copy that, over. Oh, I love 'em. We’ll signal you when we get there and then you bring us back. Steve, it's the fastest way back to headquarters.",0.19999999999999998,0.16666666666666666,Positive
+631,SADNESS,"Jane, I can’t do it. I’m not strong like you are.",0.7333333333333333,-0.21666666666666665,Negative
+632,JOY,"I know you, Steve. You are strong. I can’t you specific examples right now, but you got this. Just don’t look down and keep moving.",0.420734126984127,0.14087301587301584,Positive
+633,SADNESS,"Okay, I can do it.",0.5,0.5,Positive
+634,JOY,She’ll be okay. Right?,0.5178571428571428,0.39285714285714285,Positive
+635,ANGER,"Ah. Fifty, fifty.",0.0,0.0,Neutral
+636,VAL,Want one?,0.0,0.0,Neutral
+637,ENVY,But we hate those things. They taste like cardboard.,0.9,-0.8,Negative
+638,ANXIETY,We can't say no to Val.,0.0,0.0,Neutral
+639,ENVY,"Okay, no. You are so right. We eat whatever Val eats!",0.5178571428571428,0.42857142857142855,Positive
+640,ANXIETY,That’s the spirit!,0.0,0.0,Neutral
+641,ENVY,Whoo!,0.0,0.0,Neutral
+642,ANXIETY,"Enrique, I think you’re really in the zone. Take the wheel. I’ll be right back.",0.24523809523809526,0.1619047619047619,Positive
+643,ENVY,"She picked me, she picked me! Do you see that, Pierre? She picked me.",0.0,0.0,Neutral
+644,ENNUI,You care so much about things.,0.2,0.2,Positive
+645,RILEY,It's got a very interesting texture. It tastes like. What does it remind me of? Um...,0.65,0.65,Positive
+646,JOY,Cardboard? Asparagus?! BROCCOLI?!?!?! What are they doing to her up there?!?!,0.0,0.0,Neutral
+647,ANGER,"I don't know, but we have to go.",0.0,0.0,Neutral
+648,DISGUST,"No! No, way am I-",0.0,0.0,Neutral
+649,ANGER,We have to! Riley needs us.,0.0,0.0,Neutral
+650,DISGUST,"Okay, fine! Ew, ew!",0.5,0.5755208333333334,Positive
+651,DISGUST,I think I'm gonna be sick.,0.8571428571428571,-0.7142857142857143,Negative
+652,RILEY'S BELIEF,"If I'm good at hockey, I'll have friends.",0.6000000000000001,0.7,Positive
+653,VAL,"Okay, Miss Riley.",0.5,0.5,Positive
+654,DANI,"Yeah! Way to go, Michigan.",0.0,0.0,Neutral
+655,COACH ROBERTS,"Alright ladies, great day today. Take it easy tonight.",0.7916666666666667,0.6166666666666667,Positive
+656,ANXIETY,Yes! This is the moment we’ve been waiting for. Party time with Val and our future besties. Why are we stopping? What’s going on?,0.125,0.0,Neutral
+657,DANI,There it is. The red notebook.,0.0,0.0,Neutral
+658,VAL,Don’t say it like that. You’ll freak her out.,0.0,0.0,Neutral
+659,RILEY,Why would it freak me out?,0.0,0.0,Neutral
+660,DANI,Only because everything coach thinks about you is in there. The good and the bad.,0.7555555555555555,3.700743415417188e-17,Positive
+661,DEBBI,Whether she wants you on the team-,0.1,0.2,Positive
+662,DANI,Or not.,0.0,0.0,Neutral
+663,VAL,"You guys, too much.",0.2,0.2,Positive
+664,DEBBI,What? It's the truth.,0.0,0.0,Neutral
+665,ENVY,What do you think she’s written about us?,0.0,0.0,Neutral
+666,ANXIETY,I don’t know. Do you think it’s bad?,0.6666666666666666,-0.6999999999999998,Negative
+667,ENVY,"Well, I didn't until now. What if she's made a list of all her favorite players and we’re not on it?",1.0,0.5,Positive
+668,ANXIETY,Or a list the one of the worst players and we're at the top!,0.75,-0.1875,Negative
+669,ENVY,Or worse! We’re not on either list and we fade into obscurity!,0.6,-0.625,Negative
+670,ENNUI,"Uh, sorry to interrupt you, But they’re walking away.",1.0,-0.5,Negative
+671,ENVY,"We’re losing them, we're losing them!",0.0,0.0,Neutral
+672,ANXIETY,"Okay, first pretend with the group. We just got to act casual. Uh, why do our arms swing like that when we walk?",0.5666666666666667,0.0833333333333333,Positive
+673,ENVY,Try to keep them still.,0.0,0.0,Neutral
+674,ANXIETY,That looks crazy!,0.9,-0.75,Negative
+675,ENVY,Okay. We'll walk like Debbi. Her arms have rhythm.,0.5,0.5,Positive
+676,ANXIETY,"No, you’re making it worse.",0.6,-0.4,Negative
+677,ENVY,"Well, that wasn’t my intention. I’m sorry for trying something!",1.0,-0.625,Negative
+678,ENNUI,"Uh, what do you think the pockets are for?",0.0,0.0,Neutral
+679,ENVY,Oh. That's good.,0.6000000000000001,0.7,Positive
+680,ANXIETY,Okay. I am very proud of you.,0.75,0.75,Positive
+681,ENVY,What are they laughing about? Does anybody know what cool people laugh about?,0.375,0.32499999999999996,Positive
+682,ANXIETY,I don’t know. We we’re too focused on the arms thing. Just pretend we get the joke.,0.0,0.0,Neutral
+683,FEAR,Jane! Andy is taking up the floret.,0.0,0.0,Neutral
+684,DISGUST,Do you see this asparagus? I can stand.,0.0,0.0,Neutral
+685,ANGER,Frank! What is the matter with you?,0.0,0.0,Neutral
+686,FEAR,I don’t like this vessel.,0.0,0.0,Neutral
+687,JOY,"Well, that’s all we have.",0.0,0.0,Neutral
+688,ANGER,How much longer till we get there?,0.2,0.2,Positive
+689,JOY,We'll get there when we get there.,0.0,0.0,Neutral
+690,FEAR,I bet Alex would know how long down to the minute.,0.34444444444444444,-0.1027777777777778,Negative
+691,JOY,"Well, she just knows everything, doesn't she?",0.0,0.0,Neutral
+692,FEAR,"Look, I don’t like her words and I do not like her actions. I just think I can change her.",0.0,0.0,Neutral
+693,JOY,You know what? Who likes banana bread? Show of hands.,0.0,0.0,Neutral
+694,???,So Michigan. Who’s your favorite band?,1.0,0.5,Positive
+695,ANXIETY,Everyone’s staring at us. There’s only one right answer to this question.,0.7678571428571428,0.14285714285714285,Positive
+696,RILEY,"Oh! ""Get Up and Glow!""! They’re so awesome.",1.0,1.0,Positive
+697,VAL,"""Get Up and Glow!""! I was all over them in middle school.",0.0,0.0,Neutral
+698,DANI,You serious?,0.6666666666666666,-0.3333333333333333,Negative
+699,VAL,"Yeah, I was a Glow Girly. Relax.",0.0,0.0,Neutral
+700,ENVY,No! We need a band they think is cool. Not that we actually like!,0.375,0.175,Positive
+701,ANXIETY,"Quick, recall anything we know about music.",0.5,0.3333333333333333,Positive
+702,SADNESS,Uh-oh!,0.0,0.0,Neutral
+703,ENVY,"We have to know one cool song, right?",0.5928571428571429,0.31785714285714284,Positive
+704,ANXIETY,"Embarrassment, get that out of here. Hang on, there’s got to be something in here. Something-",0.0,0.0,Neutral
+705,ENVY,"I'm looking, I'm looking!",0.0,0.0,Neutral
+706,ENVY,This is the best we have. It’s mostly jingles and dad’s yacht rock.,0.4,0.75,Positive
+707,DANI,"But I mean, you don’t still like ""Get Up and Glow!"", do you?",0.6875,-0.390625,Negative
+708,ANXIETY,"Okay, don’t panic, what do we do? If we don't like their music, we got nothing to offer these girls.",0.5,0.5,Positive
+709,ENNUI,Pardon. Excuse moi. I’ve been waiting my whole life for this very moment.,0.25,0.11666666666666668,Positive
+710,RILEY,Oh yeah. I looooove Get up and glow.,0.0,0.0,Neutral
+711,EMOTIONS,,0.0,0.0,Neutral
+712,JOY,Abandon broccoli!,0.0,0.0,Neutral
+713,DISGUST,Jane!,0.0,0.0,Neutral
+714,ANGER,Give us your hand. Come on.,0.0,0.0,Neutral
+715,FEAR,What is that?,0.0,0.0,Neutral
+716,MIND WORKER,That’s a sar-chasm! It can open for miles! Run for your lives!,0.5,0.0,Neutral
+717,DISGUST,Sar-chasm? Really?,0.2,0.2,Positive
+718,RILEY,"""Get Up and Glow!"" is my favorite band.",1.0,0.5,Positive
+719,JOY,"But she loves ""Get Up and Glow!"". They choreographed their own dances.",1.0,0.6,Positive
+720,FEAR,"Okay, Jane, if we can’t follow the stream, we don’t know where we’re going. And if we don’t know where we’re going, we can’t follow the steam! It is an endless loop of tragedy and consequence!",0.625,0.234375,Positive
+721,JOY,Or we can just ask those guys.,0.0,0.0,Neutral
+722,FEAR,"Oh yeah, or that.",0.0,0.0,Neutral
+723,JOY,"Boy, are we so lucky we ran into you guys!",0.8333333333333334,0.41666666666666663,Positive
+724,JOY'S VOICE,"Boy, are we so lucky we ran into you guys!",0.8333333333333334,0.41666666666666663,Positive
+725,FRITZ,Huh?,0.0,0.0,Neutral
+726,FEAR,"Please, we really need your help!",0.2,0.25,Positive
+727,FEAR'S VOICE,We really need your help!,0.2,0.25,Positive
+728,MIND WORKER,What’s their problem?,0.0,0.0,Neutral
+729,DISGUST,"Guys, you just gotta turn on the charm. Hey!",0.0,0.0,Neutral
+730,DISGUST'S VOICE,I bet you're the best crane crew in the world!,0.3,1.0,Positive
+731,FRITZ,"Wow, those guys are jerks.",1.0,0.1,Positive
+732,ANGER,"Wow, those guys are jerks.",1.0,0.1,Positive
+733,RILEY,"Oh yeah. ""Get up and Glow!"" is so awesome.",1.0,1.0,Positive
+734,BREE,"Riley, what are you talking about? You love ""Get Up and Glow!"".",0.6,0.625,Positive
+735,RILEY,"Oh! Uh, hey guys.",0.0,0.0,Neutral
+736,ENVY,Why are our best friends always trying to hang out with us?,0.3,1.0,Positive
+737,GRACE,"Come on, Riley, we just went to their concert.",0.0,0.0,Neutral
+738,RILEY,"Well, yeah. I mean sure. But like..",0.7881944444444444,0.09375,Positive
+739,BREE,But what?,0.0,0.0,Neutral
+740,GRACE,We had a great time!,0.75,1.0,Positive
+741,ANXIETY,"Grace, you are not helping.",0.0,0.0,Neutral
+742,RILEY,"Oh, yeah. We had a great time.",0.75,0.8,Positive
+743,JOY,Why can’t they just leave her alone?,0.0,0.0,Neutral
+744,ANGER,What are we gonna do now Jane?,0.0,0.0,Neutral
+745,JOY,"We go the long way, which is the best day. Stretch those hammies, Andy. Let’s go.",0.35,0.475,Positive
+746,RILEY,Best night of my life.,0.3,1.0,Positive
+747,GRACE,"Well, this has been really fun.",0.2,0.3,Positive
+748,BREE,Extremely. But we’re gonna go now.,1.0,-0.125,Negative
+749,RILEY,"Okay. Bye. Oh, this is the best band ever.",0.4,0.75,Positive
+750,???,Alright.,0.0,0.0,Neutral
+751,???,Michigan knows what's up.,0.0,0.0,Neutral
+752,ANXIETY,"See? As long as we like what they like, we have all the friends we need.",0.4,-0.05,Negative
+753,VAL,"Well, I think I’m calling it a night.",0.0,0.0,Neutral
+754,RILEY,"Oh, really?",0.2,0.2,Positive
+755,VAL,"Yeah. It’s late. Plus, I think you'll wanna get some sleep before tomorrow’s scrimmage.",0.6,-0.3,Negative
+756,RILEY,What scrimmage?,0.0,0.0,Neutral
+757,VAL,It’s just something coach always does on the last day.,0.06666666666666667,0.0,Neutral
+758,DANI,It's how Val made the team as a freshmen.,0.0,0.0,Neutral
+759,VAL,Don’t tell her that.,0.0,0.0,Neutral
+760,DANI,Val scored two goals. No freshman has ever done that.,0.0,0.0,Neutral
+761,VAL,"Dani, stop.",0.0,0.0,Neutral
+762,???,"Technically, it's not your trial for the next year, but it basically is.",0.05,0.0,Neutral
+763,VAL,You’ll do great. Just be yourself.,0.75,0.8,Positive
+764,ANXIETY,Did you hear that? We could become a Fire Hawk like tomorrow!,0.0,0.0,Neutral
+765,ENVY,"Uh, how do we be yourself if our new self isn’t ready yet?",0.4772727272727273,0.16818181818181818,Positive
+766,ANXIETY,Excellent point. Let’s get these memories downstairs.,1.0,1.0,Positive
+767,SADNESS,Oh...,0.0,0.0,Neutral
+768,ANXIETY,Is that broccoli?,0.0,0.0,Neutral
+769,ANGER,"We’re getting deeper and deeper in, Jane.",0.0,0.0,Neutral
+770,JOY,"Great observation. The long way did turn out to be a little longer than I thought. Anyway, who wants to sing a song?",0.4375,0.190625,Positive
+771,DISGUST,Oh! I know a song. It’s called I give up.,0.0,0.0,Neutral
+772,JOY,"Or let’s play the quiet game. 1, 2, 3, hush.",0.3666666666666667,-0.2,Negative
+773,ANGER,I’ll tell you what we do. We go back up there and we kick those-,0.0,0.0,Neutral
+774,JOY,"Andy, now is not the time.",0.0,0.0,Neutral
+775,DISGUST,"Jane, this is useless. Real Riley is out there somewhere and we’re never going to find her.",0.25,-0.15,Negative
+776,PAULA,You know what? These can go.,0.0,0.0,Neutral
+777,BOBBY,Forget 'em!,0.0,0.0,Neutral
+778,JOY,Don't worry. I can find her. I just need to get a better view.,0.5,0.5,Positive
+779,JOY,"Okay, well, this isn’t working. And that’s fine. Everything’s fine.",0.5,0.4444444444444445,Positive
+780,DISGUST,This is hopeless. I say we cut our losses and walk back.,0.0,0.0,Neutral
+781,FEAR,This whole trip is just a series of deader and deader ends!,0.4,0.25,Positive
+782,ANGER,"Ever since that puberty alarm went off, nothin' around here works the way it's supposed to do.",0.0,0.0,Neutral
+783,DISGUST,I don’t even recognize this place anymore. It’s light out at one in the morning!,0.7,0.5,Positive
+784,FEAR,I have never been inside so many jars in my life!,0.5,0.625,Positive
+785,DISGUST,And the Riley we knew is gone!,0.0,0.0,Neutral
+786,ANGER,"And if Jane can’t see that well, then she’s delusional!",0.0,0.0,Neutral
+787,JOY,"Delusional? OF COURSE I’M DELUSIONAL!! Do you know how hard it is to stay positive all the time when all you folks do is complain, complain, complain!? Jiminy mother-lovin' toaster-strudel! Do you think I have all the answers? Of course I don’t! We can’t even find the back of our own mind! Alex is right. Riley doesn’t need us as much as she needs them. And that hurts. It really hurts.",0.4318336425479283,0.2268485235003092,Positive
+788,ANGER,"Jane, you made a lot of mistakes, a lot. And you'll make a whole lot more in the future. But if you let that stop you, we might as well lie down and give up now.",0.3284722222222222,0.1361111111111111,Positive
+789,FEAR,Well actually that does sound kind of nice.,0.6,0.4,Positive
+790,ANGER,Come on.,0.0,0.0,Neutral
+791,ANGER,Excuse us.,0.05,-0.05,Negative
+792,BOBBY,Hey! You can’t use that.,0.0,0.0,Neutral
+793,ANGER,Riley emergency!,0.0,0.0,Neutral
+794,FEAR,Thank you!,0.0,0.0,Neutral
+795,ANGER,Hop on!,0.0,0.0,Neutral
+796,BOBBY,Let’s just forget that ever happened.,0.0,0.0,Neutral
+797,PAULA,You don’t have to ask me twice.,0.0,0.0,Neutral
+798,JOY,Look.,0.0,0.0,Neutral
+799,ANGER,We’re right behind you.,0.6178571428571429,-0.05714285714285716,Negative
+800,ANXIETY,"This is great. The Fire Hawks have accepted us. But if coach doesn’t put us on the team, none of that matters.",0.75,0.8,Positive
+801,ENVY,Tomorrow is everything.,0.0,0.0,Neutral
+802,ANXIETY,"Which is why we’re gonna need more help. Pierre, are you paying attention?",0.5,0.5,Positive
+803,ENNUI,No.,0.0,0.0,Neutral
+804,ANXIETY,Embarrassment? Embarrassment?,0.0,0.0,Neutral
+805,ANXIETY,"Let’s see, what am I looking for?",0.0,0.0,Neutral
+806,ANXIETY,"Alright guys, it’s gonna be a long night.  So let’s get the team ready.",0.45,0.07500000000000001,Positive
+807,JOY,"Come on, we just need to cut through-  Imagination Land! Oh, you guys are gonna love it. There's French Fry Forest and Cloud Town and-- Whoa. This place has changed.",0.3,0.25,Positive
+808,JOY,Mount Crushmore?,0.0,0.0,Neutral
+809,FEAR,Those are her top four?,0.5,0.5,Positive
+810,DISGUST,The only one that matters is Lance.,1.0,0.0,Neutral
+811,JOY,"Well, at least they got his good night.",0.5,0.19999999999999998,Positive
+812,DISGUST,Every side is his good side.,0.6000000000000001,0.7,Positive
+813,JOY,"""The Rumor Mill""?",0.0,0.0,Neutral
+814,DISGUST,Ooh! Where all our good gossip comes from.,0.6000000000000001,0.7,Positive
+815,MIND WORKER,"Extra, extra! Pipin, hot rumors, right off the mill.",0.39642857142857146,0.13392857142857142,Positive
+816,ANGER,The teachers lounge has a hot tub?,0.8500000000000001,0.25,Positive
+817,FEAR,Lucy from math class is legit psychic?,0.0,0.0,Neutral
+818,DISGUST,"Abby R's been texting Mike T, but Mike T’s been obsessed over Sarah M?",1.0,-0.5,Negative
+819,ANGER,"Where's ""The Journalistic Integrity""?",0.0,0.0,Neutral
+820,JOY,Ooh! Fort Pillowton's still here. And it even got bigger. Hmm… And orange?,0.5,0.0,Neutral
+821,ANXIETY,"All rigtht 22, Riley breaks her leg in practice disappointing everyone. Nice job, Now 18 Val and Dan whispering after Riley misses a goal. Great. iWe need to help Riley prepare. Now’s the time we send up every possible thing that can go wrong. We are looking to the future. Every possible mistake she could make. Come on, 17. I’m not seeing anything from you. Riley misses an open goal, Coach writes back her notebook, Yes! More like that.",0.6475000000000001,0.08,Positive
+822,DISGUST,Oh no. They’re using Riley’s imagination against her.,0.0,0.0,Neutral
+823,ANXIETY,"Val and her friends like us now. But if we don’t make the team, will they like us tomorrow? Okay, let's go to number three. Bree and Grace's team win and we look stupid. Number 22: Val passes to us and we miss it.",0.6333333333333333,0.1666666666666667,Positive
+824,JOY,We can’t let her do this to Riley. We have to shut this down.,0.2888888888888889,-0.15555555555555559,Negative
+825,ANXIETY,"Love it, 37. Riley hits the puck into her own net.",0.5333333333333333,0.3666666666666667,Positive
+826,ANGER,Why are you drawing a hippo?,0.0,0.0,Neutral
+827,JOY,I'm not. I’m drawing Riley.,0.0,0.0,Neutral
+828,DISGUST,"Jane, you forgot her ponytail.",0.0,0.0,Neutral
+829,JOY,Oh! I love her ponytail. Yes!,0.6,0.625,Positive
+830,ANXIETY,"Riley scores and everyone hugs her? 81, that is not helping.",0.0,0.0,Neutral
+831,DISGUST,"Riley paints her nails to match her jersey, everybody copies her and she is so cool.",0.65,0.35,Positive
+832,FEAR,Riley wears knee pads.,0.0,0.0,Neutral
+833,ANGER,We bought flowers for the losing team. What? I can't always be the rage guy.,0.0,0.0,Neutral
+834,JOY,"No, no. I liked it.",0.8,-0.3,Negative
+835,ANXIETY,"Nail polish, knee pads? I'm starting to think you guys don’t understand the assignment.",0.1,0.0,Neutral
+836,ANXIETY,"What? Um, who sent that projection to Riley?",0.0,0.0,Neutral
+837,ENNUI,Why would I do that?,0.0,0.0,Neutral
+838,ENVY,Don't look at me.,0.0,0.0,Neutral
+839,ANXIETY,What is going on? Who is sending all of this positive–,0.0,0.0,Neutral
+840,ANXIETY,Jane... I know you’re in there!,0.0,0.0,Neutral
+841,ANXIETY,The mind police are on their way.,0.0,0.0,Neutral
+842,FEAR,"Well, I think we give it our best shot.",0.3,1.0,Positive
+843,JOY,Don’t listen to Alex. She’s using these horrible projections to change Riley.,1.0,-1.0,Negative
+844,ANXIETY,"Jane, I'm doing this for you. This is all so Riley can be happier.",0.0,0.0,Neutral
+845,JOY,"If you wanted her to be happy, then you'd stop hurting her! Who’s with me? Really? Nothing?",0.6,0.6,Positive
+846,ANXIETY,"Sorry, Jane.",1.0,-0.5,Negative
+847,JOY,"Yeah. I see you, 87. A cat! Little off topic, but I’ll take it. Who else? Come on!",0.5,-0.234375,Negative
+848,ANXIETY,What if Riley is better than Val and then Val hates her?,0.5,0.5,Positive
+849,JOY,"Or what if Riley is better than Val and Val respects her? Yeah, there we go!",0.5,0.625,Positive
+850,ANXIETY,"What if Riley is so bad, she has to give up hockey forever?",0.6666666666666666,-0.6999999999999998,Negative
+851,JOY,What if Riley does so well that the coach cries? And the Olympics called and she rallies a weary nation to victory!,0.0,0.0,Neutral
+852,DISGUST,Uh Jane? Reality is also a thing.,0.0,0.0,Neutral
+853,ANXIETY,NO!,0.0,0.0,Neutral
+854,ANGER,"Alex’s got you all chained to desks, drawing nightmares. But you don’t have to take it anymore!",0.0,0.0,Neutral
+855,JOY,Pencils down! Projections off!,0.2888888888888889,-0.24305555555555558,Negative
+856,MIND WORKER #1,Yeah!,0.0,0.0,Neutral
+857,MIND WORKER #2,Enough is enough!,0.5,0.0,Neutral
+858,ANXIETY,MY PROJECTIONS!!!,0.0,0.0,Neutral
+859,MIND WORKER #3,Pillow fight!,0.0,0.0,Neutral
+860,MIND WORKER #4,For Riley!,0.0,0.0,Neutral
+861,ANXIETY,We need to be prepared!,0.0,0.0,Neutral
+862,ANXIETY,NO!!,0.0,0.0,Neutral
+863,FEAR,"Okay, it’s time to go.",0.5,0.5,Positive
+864,JOY,"Yeah, I think so.",0.0,0.0,Neutral
+865,ANGER,"Bring it on, coppers!",0.0,0.0,Neutral
+866,JOY,Oh no no no.,0.0,0.0,Neutral
+867,MIND COP,Hey! Get back here!,0.0,0.0,Neutral
+868,JOY,"Quick, to the Parade of Future Careers. Grab a balloon.",0.28611111111111115,0.027777777777777773,Positive
+869,DISGUST,Oh! A pastry chef!,0.0,0.0,Neutral
+870,JOY,Underpaid.,0.0,0.0,Neutral
+871,FEAR,Art teacher!,0.0,0.0,Neutral
+872,JOY,Under appreciated.,0.1,0.2,Positive
+873,ANGER,Oh! ethnomusicologist!,0.0,0.0,Neutral
+874,JOY,"I don’t understand what that is. Oh, Supreme Court Justice!",0.0,0.0,Neutral
+875,DISGUST,Yes!,0.0,0.0,Neutral
+876,FEAR,I trust her judgement.,0.0,0.0,Neutral
+877,ANGER,That's the one!,0.0,0.0,Neutral
+878,MIND COP,Get back here!,0.0,0.0,Neutral
+879,JOY,Yes! Now Riley can get some sleep.,0.0,0.0,Neutral
+880,FEAR,I miss the jar!,0.0,0.0,Neutral
+881,ANXIETY,"Jane doesn’t get it. Without our projections, we won’t be prepared. Tomorrow’s game is everything.",0.4,-0.4,Negative
+882,ENVY,Coach will either make us a Fire Hawk or doom us to a friendless future.,0.125,0.0,Neutral
+883,ANXIETY,I wish we knew what coach thought about us.,0.0,0.0,Neutral
+884,ENVY,Her note book.,0.0,0.0,Neutral
+885,ANXIETY,Yes. That’s a great idea.,0.75,0.8,Positive
+886,DEBI (V.O.),Everything coach thinks about you is in there.,0.0,0.0,Neutral
+887,ANXIETY,"All we got to do is to sneak into her office and read it. Come on, Riley, move those feet.",0.0,0.0,Neutral
+888,ENVY,She doesn’t want to?,0.0,0.0,Neutral
+889,ANXIETY,Are we pushing her too hard?,0.5416666666666666,-0.2916666666666667,Negative
+890,ENVY,We gotta see what’s in the notebook. It's the only way for us to know how we can do better.,0.75,0.25,Positive
+891,SADNESS,"Riley, no… Jane? Come in, Jane.",0.0,0.0,Neutral
+892,JOY,"Steve? Steve, what’s wrong? Why is Riley awake again? Over.",0.9,-0.5,Negative
+893,SADNESS,Alex is making Riley break into the coach’s office.,0.0,0.0,Neutral
+894,JOY,What?,0.0,0.0,Neutral
+895,ANGER,She knows better than that.,0.5,0.5,Positive
+896,DISGUST,She will once we get her sense of self back.,0.0,0.0,Neutral
+897,JOY,"Steve, you have to stop her. Just don’t get caught. Over.",0.0,0.0,Neutral
+898,SADNESS,"No, Riley, no.",0.0,0.0,Neutral
+899,ANXIETY,"Why did she stop?  Steve? Pierre, where’s your phone?",0.0,0.0,Neutral
+900,ENNUI,"Ooh la la, my phone?! Where is my phone?! Seriously?! This is not happening! NO, NO, NO, NO, NO!!!",0.6666666666666666,-1.0,Negative
+901,ANXIETY,"Okay, she’s got to be around here somewhere. Find her.",0.5,0.5,Positive
+902,ENVY,Gotcha!,0.0,0.0,Neutral
+903,ANXIETY,Steve?,0.0,0.0,Neutral
+904,SADNESS,"Uh, no?",0.0,0.0,Neutral
+905,ANXIETY,I know Riley sneaking around feels wrong.,0.9,-0.5,Negative
+906,SADNESS,This isn’t who Riley is!,0.0,0.0,Neutral
+907,ANXIETY,It’s not about who Riley is. It's about who she needs to be.,0.0,0.0,Neutral
+908,ENVY,Not ready yet?,0.5,-0.1,Negative
+909,ANXIETY,Wait. The Coach already decided we’re not making the team?,0.0,0.0,Neutral
+910,ENVY,No. We have one day left. What do we do? What can we do? What would Val do?,0.0,0.0,Neutral
+911,ANXIETY,"Okay, okay, okay. Uh well, We’re just gonna have to change coach’s mind. Which means we’re gonna need ideas. Lots of them.",0.5,0.5,Positive
+912,DISGUST,Ow!,0.0,0.0,Neutral
+913,ANGER,"Oh, no! IT'S A BRAINSTORM!!!",0.0,0.0,Neutral
+914,EMOTIONS,,0.0,0.0,Neutral
+915,FEAR,Too close!,0.0,0.0,Neutral
+916,JOY,Hog the puck?! Trash talk the other team?!?!,0.375,-0.1953125,Negative
+917,ANXIETY,Yes!,0.0,0.0,Neutral
+918,JOY,We can’t let these bad ideas get to Riley!,0.6666666666666666,-0.8749999999999998,Negative
+919,DISGUST,Jane!,0.0,0.0,Neutral
+920,JOY,Smash as many as you can!,0.5,0.625,Positive
+921,ANGER,Jane! JOY!!,0.2,1.0,Positive
+922,ENVY,I’ll start sorting these into ideas I wish I thought of.,0.0,0.0,Neutral
+923,ANXIETY,No no no! None of these are good enough! We need more! Get more!,0.525,0.4875,Positive
+924,DISGUST,Get on the balloon!,0.0,0.0,Neutral
+925,DISGUST,This is worse than the broccoli!,0.6,-0.5,Negative
+926,FEAR,Quick! Grab an idea!,0.5,0.5208333333333333,Positive
+927,ANGER,These ideas are too small.,0.4,-0.25,Negative
+928,ANXIETY,These ideas are too small. We need something bigger.,0.45,-0.125,Negative
+929,FEAR,That’s our way out!,0.0,0.0,Neutral
+930,FEAR,Ready?,0.5,0.2,Positive
+931,FEAR,"Jane, we need this idea!",0.0,0.0,Neutral
+932,JOY,"If Riley takes one of these ideas, it could be a disaster!",0.0,0.0,Neutral
+933,FEAR,"Jane, the only way out is up!",1.0,0.0,Neutral
+934,ANXIETY,That’s a big idea.,0.1,0.0,Neutral
+935,ENVY,Ohhh. I like it.,0.0,0.0,Neutral
+936,FEAR,"Oh, no.  (The emotions tried to hold on but they slip and fall.]",0.0,0.0,Neutral
+937,FEAR,"Hold me! Seriously, hold me!",0.6666666666666666,-0.41666666666666663,Negative
+938,DISGUST,Frank! You have a parachute?!,0.0,0.0,Neutral
+939,FEAR,Uh yes. The real question is why don’t any of you?,0.30000000000000004,0.2,Positive
+940,DISGUST,Yes!,0.0,0.0,Neutral
+941,ANGER,Whoa! Yes! We did it!,0.0,0.0,Neutral
+942,JOY,"We made it! Come on! To the back of the mind! You’re finished, Alex!",0.0,0.0,Neutral
+943,ANXIETY,"Coach is right, Riley isn’t ready, but we’re so close to a new Riley who is.  This is what we’re missing. We show them we’re a Fire Hawk who will do whatever it takes.",0.38506493506493505,0.1055194805194805,Positive
+944,ENVY,Finally! We’re one of them!,1.0,0.0,Neutral
+945,ANXIETY,"What do you think, Steve?",0.0,0.0,Neutral
+946,SADNESS,Well I…,0.0,0.0,Neutral
+947,ANXIETY,Awesome!,1.0,1.0,Positive
+948,ENVY,Red is really our color.,0.1,0.1,Positive
+949,BREE,"I know, It’s so much fun.",0.2,0.3,Positive
+950,ENVY,"Okay, it's giving jealousy. I’m sorry.",0.75,0.0,Neutral
+951,ENNUI,They wouldn’t know cool if it hit them in the face.,0.65,0.35,Positive
+952,VAL,"Hey, Michigan. Oh, rockin' the red, huh?",0.0,0.0,Neutral
+953,ANXIETY,Yes! We are in.,0.0,0.0,Neutral
+954,RILEY,"I hope it's okay. I know I’m not officially a Fire Hawk yet, but I figured since we’re on the same team, we should match. Right?",0.38690476190476186,0.2619047619047619,Positive
+955,VAL,"Yeah, yeah, that's fine. Did you um, sleep last night?",0.2833333333333333,0.20833333333333334,Positive
+956,RILEY,No. How could I? Big game today.,0.25,-0.2,Negative
+957,???,You mean the camp scrimmage?,0.6875,-0.3125,Negative
+958,VAL,"Hey, I told you not to freak her out. You’re all good, okay. I see you in your zone. Get ready to scare some goals.",0.5333333333333333,0.4666666666666666,Positive
+959,RILEY,"Yeah, I will.",0.0,0.0,Neutral
+960,ANXIETY,Val scored two goals in the scrimmage to become a Fire Hawk. You know what’s better than two? Three!,0.5,0.625,Positive
+961,ENVY,Three. I was just about to say that. We were about to say that at the same time.,0.125,0.0,Neutral
+962,ENNUI,But how are we gonna score three goals?,0.0,0.0,Neutral
+963,ANXIETY,The new Riley will handle anything. And I think this is the finishing touch. I’ll be right back.,0.33008658008658004,0.14069264069264067,Positive
+964,JOY,Come on. We’re so close. The sense of self is just on top of that mount…,0.5,0.5,Positive
+965,FEAR,That is a lot.,0.0,0.0,Neutral
+966,JOY,This is more than I remember sending back here.,0.25,0.25,Positive
+967,DISGUST,"Oh, when she walked into that glass door at that party.",0.0,0.0,Neutral
+968,JOY,"Yeah, and breaking grandma’s favorite plate. Thank goodness these aren’t part of her.",1.0,0.5,Positive
+969,JOY,There it is!,0.0,0.0,Neutral
+970,RILEY'S SENSE OF SELF,I'm a good person.,0.6000000000000001,0.7,Positive
+971,JOY,Oh no.,0.0,0.0,Neutral
+972,ANXIETY,"Yes. Come on, come on. Here we go.",0.0,0.0,Neutral
+973,RILEY'S NEGATIVE SENSE OF SELF,I’m not good enough!,0.55,-0.175,Negative
+974,ANXIETY,What?,0.0,0.0,Neutral
+975,ENVY,"Uh, are you sure-",0.8888888888888888,0.5,Positive
+976,ANXIETY,"Uh, don't worry. It’s just that she knows that there’s always room for self improvement. She’ll be fine.",0.5,0.4166666666666667,Positive
+977,JOY,"Steve, we have the sense of self. Bring us back. Steve, do you copy?",0.0,0.0,Neutral
+978,RILEY'S NEGATIVE SENSE OF SELF,I’m not good enough!,0.55,-0.175,Negative
+979,ANXIETY,"Okay, I can handle this. I just need to recalibrate the console and make sure it's ready. Just no more surprises. Okay. this one goes here. That one goes there. Not exactly there. Turn it up a little bit. It's gonna be absolutely perfect. That one is definitely wrong. What is happening?",0.6154320987654321,0.18194444444444446,Positive
+980,JOY,"Steve, NOW!",0.0,0.0,Neutral
+981,ANXIETY,AAAHHH!,0.0,0.0,Neutral
+982,ANGER,Jane?!,0.0,0.0,Neutral
+983,FEAR,Oh no.,0.0,0.0,Neutral
+984,ANGER,That was our only way back.,0.5,0.0,Neutral
+985,FEAR,What do we do?,0.0,0.0,Neutral
+986,DISGUST,We were so close. Jane? Where are you going?,0.0,0.0,Neutral
+987,JOY,"That’s not… Come on… Please, what am I missing?",0.05,-0.2,Negative
+988,DISGUST,Jane. So what do we do now?,0.0,0.0,Neutral
+989,JOY,"I don’t know. I don’t know how to stop Alex. Maybe we can’t. Maybe this is what happens when you grow up, you feel less joy. But I do know this. Riley will never be herself if we don’t get this back to Headquarters fast.",0.21666666666666667,0.20833333333333337,Positive
+990,DISGUST,How?,0.0,0.0,Neutral
+991,GRACE,"Have a good game, Riley.",0.5,0.14999999999999997,Positive
+992,RILEY,You too.,0.0,0.0,Neutral
+993,RILEY'S NEGATIVE SENSE OF SELF,I’m not good enough!,0.55,-0.175,Negative
+994,ANXIETY,Yes! Go go go!,0.0,0.0,Neutral
+995,DANI,"Riley, I'm open! Pass it! Pass it!",0.5,0.0,Neutral
+996,VAL,"Yeah, Michigan!",0.0,0.0,Neutral
+997,DANI,You stepped for the rest of us.,0.0,0.0,Neutral
+998,ANXIETY,"Yes! One down, two to go.",0.2888888888888889,-0.15555555555555559,Negative
+999,DISGUST,"Okay, so how we get her sense of self from here to there?",0.5,0.5,Positive
+1000,ANGER,I have an idea. But I really don’t like it.,0.2,0.2,Positive
+1001,JOY,"Andy, Riley needs us.",0.0,0.0,Neutral
+1002,ANGER,"Oh, Pouchy! Well, what are you waiting for? Say the words.",0.0,0.0,Neutral
+1003,EMOTIONS,"Oh, Pouchy!",0.0,0.0,Neutral
+1004,POUCHY,Hi everybody! I’m Pouchy!,0.0,0.0,Neutral
+1005,ANGER,We know!,0.0,0.0,Neutral
+1006,JOY,"Pouchy, we need to get back to headquarters. Do you have anything that can help us?",0.0,0.0,Neutral
+1007,POUCHY,I have lots of items. Which one do you think will work the best? A roll of tape? A rubber ducky-,0.3,1.0,Positive
+1008,ANGER,No time!,0.0,0.0,Neutral
+1009,DISGUST,"Seriously, Pouchy? Dynamite? Don’t you have like a-a jetpack? A plane or something that’s gonna help us?",0.6666666666666666,-0.3333333333333333,Negative
+1010,POUCHY,What do you think I have? Everything in here? I offered you the rubber ducky! I offered you the-,0.0,0.0,Neutral
+1011,JOY,I know what to do. But we’re gonna need a lot more dynamite.,0.5,0.5,Positive
+1012,POUCHY,You know what? Good luck!,0.6000000000000001,0.875,Positive
+1013,ANXIETY,"Come on, Riley, get the puck! Take it, take it!",0.0,0.0,Neutral
+1014,DANI,"Michigan, what are you doing? We’re on the same team!",0.125,0.0,Neutral
+1015,RILEY,Yes!,0.0,0.0,Neutral
+1016,ANXIETY,"Well, Dani might be a little mad at us, but they'll all forgive us when we make the team. Come on, Riley. One more goal.",0.6666666666666666,-0.10416666666666667,Negative
+1017,DISGUST,"Uh, hold on, Jane, we’re gonna blow up this cliff?",0.0,0.0,Neutral
+1018,JOY,Yep.,0.0,0.0,Neutral
+1019,DISGUST,And then we’ll ride an avalanche of bad memories back to headquarters?,0.3333333333333333,-0.3499999999999999,Negative
+1020,JOY,Yeah.,0.0,0.0,Neutral
+1021,DISGUST,And how do we keep the bad memories from forming bad beliefs?,0.6666666666666666,-0.6999999999999998,Negative
+1022,JOY,I don’t know.,0.0,0.0,Neutral
+1023,DISGUST,Um. Yeah. What could go wrong? I’m in.,0.9,-0.5,Negative
+1024,JOY,Ready?,0.5,0.2,Positive
+1025,ANGER,For Riley.,0.0,0.0,Neutral
+1026,DISGUST,Let’s do it.,0.0,0.0,Neutral
+1027,FEAR,"Here we come, Riley!",0.0,0.0,Neutral
+1028,JOY,Jump on!,0.0,0.0,Neutral
+1029,ANXIETY,Come on!,0.0,0.0,Neutral
+1030,ENVY,"Aw, man!",0.0,0.0,Neutral
+1031,RILEY'S NEGATIVE SENSE OF SELF,I’m not good enough!,0.55,-0.175,Negative
+1032,ANXIETY,You have to score!,0.0,0.0,Neutral
+1033,COACH ROBERTS,Anderson! Penalty box! Two minutes!,0.0,0.0,Neutral
+1034,ANXIETY,NO!,0.0,0.0,Neutral
+1035,BREE,"Grace, are you okay?",0.5,0.5,Positive
+1036,ENVY,We hurt Grace.,0.0,0.0,Neutral
+1037,ANXIETY,It all happened so fast! I didn’t even see her!,0.6,0.3125,Positive
+1038,ANXIETY,Oh no. What did I do? No no. I can’t fix it. I can fix it.,0.0,0.0,Neutral
+1039,JOY,What? No. Come on.,0.0,0.0,Neutral
+1040,RILEY,"Come on, Riley. Get it together.",0.0,0.0,Neutral
+1041,ANXIETY,"Come on, Riley. Get it together.",0.0,0.0,Neutral
+1042,RILEY'S NEGATIVE SENSE OF SELF,I’m not good enough!,0.55,-0.175,Negative
+1043,ANXIETY,You've got to score RILEY! OR OR THIS ALL HAVE BEEN FOR NOTHING!!,0.0,0.0,Neutral
+1044,ENVY,"Alex, you’re putting too much pressure on her!",0.2,0.25,Positive
+1045,JOY,Steve!,0.0,0.0,Neutral
+1046,SADNESS,"Jane, help!",0.0,0.0,Neutral
+1047,SADNESS,"Come on, we can do this!",0.0,0.0,Neutral
+1048,DISGUST,It’s not working!,0.0,0.0,Neutral
+1049,SADNESS,It’s Alex!,0.0,0.0,Neutral
+1050,JOY,"Alex, stop!",0.0,0.0,Neutral
+1051,JOY,You don't get to choose who Riley is. Alex....,0.0,0.0,Neutral
+1052,JOY,You need to let her go.,0.0,0.0,Neutral
+1053,RILEY'S SENSE OF SELF,I’m a good person.,0.6000000000000001,0.7,Positive
+1054,ANXIETY,Jane...  I’m sorry. I was just trying to protect her. But you’re right... We don’t get to choose who Riley is.,0.7678571428571428,-0.10714285714285715,Negative
+1055,JOY (FLASHBACK),We keep the best and...toss the rest.,0.3,1.0,Positive
+1056,RILEY'S SENSE OF SELF,I’m a good person.,0.6000000000000001,0.7,Positive
+1057,DISGUST,"Jane, what are you doing?!",0.0,0.0,Neutral
+1058,RILEY'S NEW SENSE OF SELF,I’m selfish. I-I’m kind. I’m not good enough! I’m a good person. I need to fit in. But I want to be myself! I'm brave. But I get scared.,0.7142857142857143,0.25,Positive
+1059,GRACE,"Riley, you okay?",0.5,0.5,Positive
+1060,RILEY,"Yeah. I mean, no. I was such a jerk to you guys. When you guys told me you were going to a different school, I freaked out and I’m so sorry. If you don’t wanna be friends anymore, I get it. But I really hope you can forgive me, someday.",0.5975,-0.12250000000000001,Negative
+1061,COACH ROBERTS,"Alright, ladies, let’s go!",0.0,0.0,Neutral
+1062,GRACE,Come on. We got a game to finish.,0.4,-0.4,Negative
+1063,SADNESS,"Jane,  Riley wants you.",0.1,0.2,Positive
+1064,VAL,"Hey, Minnesota. How long are you gonna stare at your phone?",0.4,-0.05,Negative
+1065,RILEY,It’s almost two. Coach is gonna post the list any minute.,0.0,0.0,Neutral
+1066,JOY,Okay 2:00 PM. That’s in-,0.5,0.5,Positive
+1067,ANXIETY,"Six minutes. And what happens if we don’t become a Fire Hawk? Well, thanks for asking, Jane. I’ll tell you. First, Mom and Dad are very disappointed. We don’t go pro and we find work as an enthromusic psychologist, even though we don’t really know what that is. We have no friends and we die alone.",0.4270833333333333,-0.08125000000000003,Negative
+1068,JOY,"Okay, okay. None of that is happening right now, is it?",0.5119047619047619,0.42857142857142855,Positive
+1069,ANXIETY,No?,0.0,0.0,Neutral
+1070,JOY,Great! So why don’t we take a seat in our special chair?,0.6607142857142857,0.6785714285714286,Positive
+1071,ANXIETY,Yeah. That’s a great idea.,0.75,0.8,Positive
+1072,JOY,See? Isn't that better?,0.5,0.5,Positive
+1073,ANXIETY,Oh yeah. That’s the stuff.,0.0,0.0,Neutral
+1074,JOY,We can’t control whether Riley makes the team. But what we can control?,0.0,0.0,Neutral
+1075,ANXIETY,"Well um, Oh! Riley has a Spanish test tomorrow. We need to study.",0.0,0.0,Neutral
+1076,JOY,Oh! You’re right! We totally-,0.6428571428571428,0.17857142857142855,Positive
+1077,ANXIETY,Olvidamos!,0.0,0.0,Neutral
+1078,JOY,What’s that mean?,0.6875,-0.3125,Negative
+1079,ANXIETY,Forgot.,0.0,0.0,Neutral
+1080,ANGER,"Nice work, Alex.",1.0,0.6,Positive
+1081,DISGUST,I never would have thought of that.,0.0,0.0,Neutral
+1082,FEAR,Someone paid attention in class.,0.0,0.0,Neutral
+1083,SADNESS,???.,0.0,0.0,Neutral
+1084,ENNUI,???.,0.0,0.0,Neutral
+1085,ENVY,Muchas Gracias.,0.0,0.0,Neutral
+1086,ANXIETY,"Thanks, guys.",0.2,0.2,Positive
+1087,JOY,"Plus, we followed our new varsity caliber training program.",0.45454545454545453,0.13636363636363635,Positive
+1088,ENVY,Oh. I wish I thought of that.,0.0,0.0,Neutral
+1089,JOY,Newsflash. You did.,0.0,0.0,Neutral
+1090,ENVY,"Wait, you’re right, I did. I'm jealous of myself. Thanks for the reminder.",0.3678571428571429,0.24285714285714285,Positive
+1091,POUCHY,You’re welcome!,0.9,1.0,Positive
+1092,JOY,Who said that?,0.0,0.0,Neutral
+1093,ANGER,"It’s my new buddy, Pouchy.",0.45454545454545453,0.13636363636363635,Positive
+1094,POUCHY,Hi everybody! I’m Pouchy!,0.0,0.0,Neutral
+1095,ANGER,Confetti if we make the team!,0.0,0.0,Neutral
+1096,FEAR,Good idea-  Aah!,0.6000000000000001,0.875,Positive
+1097,JOY,"That’s great, but either way. We love our girl.",0.675,0.65,Positive
+1098,ANGER,Confetti if we don’t!,0.0,0.0,Neutral
+1099,FEAR,Aah!,0.0,0.0,Neutral
+1100,VAL,"Oh, is it Coach’s email?",0.0,0.0,Neutral
+1101,RILEY,"No, it's Bree and Grace.",0.0,0.0,Neutral
+1102,DISGUST,"Oh, I miss those girls.",0.0,0.0,Neutral
+1103,NOSTALGIA,"Oh, Remember when Bree and Grace and us share-",0.0,0.0,Neutral
+1104,NOSTALGIA,I’ll just be downstairs if you need me.,0.0,0.0,Neutral
+1105,JOY,It's three minutes to two. She’s got this.,0.0,0.0,Neutral
+1106,EMBARRASSMENT,"And she’s got us! Yeah, right? Cause she's like... Maybe?",0.5357142857142857,0.2857142857142857,Positive
+1107,JOY,"Alright, Embarrassment. Everybody, look at Embarrassment!",0.0,0.0,Neutral
+1108,VAL,"If you don’t make it this year, these always next year.",0.0,0.0,Neutral
+1109,RILEY,I know.,0.0,0.0,Neutral
+1110,ANXIETY,I love our girl.,0.6,0.5,Positive
+1111,JOY,How could you not?,0.0,0.0,Neutral
+1112,JOY,She’s super smart.,0.6547619047619048,0.2738095238095238,Positive
+1113,SADNESS,And great at hockey.,0.75,0.8,Positive
+1114,DISGUST,She’s really creative.,1.0,0.5,Positive
+1115,ENNUI,"She can be bored, but never boring.",1.0,0.0,Neutral
+1116,JOY,But she can be a little sarcastic from time to time.,0.65,-0.04375,Negative
+1117,FEAR,She can have really bad ideas.,0.6666666666666666,-0.6999999999999998,Negative
+1118,ANGER,"Occasionally, she can do the wrong things.",0.5125,-0.25,Negative
+1119,JOY,"Sometimes, she can be too hard on herself, but every bit of Riley makes her who she is. And we love all of our girl. Every messy, beautiful piece of her.",0.6354166666666666,0.21458333333333332,Positive
+1120,JILL ANDERSEN,"So, Riley, how was camp?",0.0,0.0,Neutral
+1121,JOY,"Okay, we talked about this. We tell them everything.",0.5,0.5,Positive
+1122,RILEY,Uh…,0.0,0.0,Neutral
+1123,ANXIETY,But what about sneaking into Coach’s office?,0.0,0.0,Neutral
+1124,ANGER,What about hitting Grace?,0.0,0.0,Neutral
+1125,ENVY,Remember the lying?,0.0,0.0,Neutral
+1126,EMBARRESMENT,We're number one?,0.0,0.0,Neutral
+1127,DISGUST,Are we gonna tell her about the Fire Hawks?,0.0,0.0,Neutral
+1128,'ANGER,She doesn’t need to know.,0.0,0.0,Neutral
+1129,FEAR,Uh... Objection.,0.0,0.0,Neutral
+1130,ENNUI,Pardon. Excusez moi.,0.0,0.0,Neutral
+1131,RILEY,It was good.,0.6000000000000001,0.7,Positive
+1132,JILL’S ANGER,"She goes away for three days and all we get is, “good”?!",0.6000000000000001,0.875,Positive
+1133,JILL’S ANXIETY,And what about the red in her hair?! Did she join a gang?!?!,0.0,0.0,Neutral
+1134,JILL’S SADNESS,"Welcome back, Alex.",0.45,0.4,Positive
+1135,WILL’S ANXIETY,"She goes away for three days and all we get is, “good”?!",0.6000000000000001,0.875,Positive
+1136,WILL’S ANGER,Yeah. Sounds right.  Back to the game.,0.3119047619047619,-0.038095238095238106,Negative
+1137,SPORTS ANNOUNCER,"With a nice pass over to Reeves comes across center ice. Down to the line. Oh, what a move!",0.462962962962963,0.10185185185185185,Positive
+1138,JOY,"Okay, Deep Dark Secret, it’s time.",0.5,-0.012500000000000011,Negative
+1139,JOY,It’s okay. Come on.,0.5,0.5,Positive
+1140,JOY,"Okay, let it go, buddy. What’s the secret?",0.6,0.04999999999999999,Positive
+1141,DEEP DARK SECRET,We burned hole in rug.,0.0,0.0,Neutral
+1142,JOY,Really? That’s it? Whoo! I thought you were gonna say the time we peed in the pool.,0.2,0.25,Positive
+1143,DEEP DARK SECRET,No!,0.0,0.0,Neutral
+1144,JOY,"Oh, no! Wait, wait!",0.0,0.0,Neutral
+1145,JOY,And he’s gone.,0.0,0.0,Neutral
