@@ -1,0 +1,109 @@
+# Simulation Oil Cost
+Phase 1
+##Import Data and Load Libraries 
+import numpy as np 
+import pandas as pd 
+import seaborn as sns
+np.random.seed(123)
+from scipy.stats import gaussian_kde
+from scipy import stats
+import matplotlib.pyplot as plt
+
+
+data = pd.read_excel("C:/Users/camer/Analysis_Data.xlsx", sheet_name=1, header = 2) #set appropriate header vals
+## Filter for select years
+data['Year'] = data['Date'].dt.year
+filtered_df = data[(data['Year'] > 1990) & (data['Year'] != 2007)]
+filtered_df = filtered_df.drop(columns=['Date'])
+## Equally considered -- join them all 
+ar_return = pd.Series(filtered_df[["Arithmetic Return - Crude Oil", "Arithmetic Return - Natural Gas","Arithmetic Return - Dry Well"]].to_numpy().flatten()).astype("float64")
+
+#mean 
+return_mean = ar_return.mean()
+#std 
+return_std = ar_return.std()
+#Check values
+print(return_mean, return_std)
+##Checking QQ to evaluate if normal 
+np.random.seed(123)
+
+# Plot QQ-plot 
+stats.probplot(ar_return, dist="norm", plot=plt)
+plt.title("QQ-Plot 91-06 Returns")
+plt.show()
+
+# Perform Shapiro-Wilk Test for normality
+stat, p_value = stats.shapiro(ar_return)
+print(f"Shapiro-Wilk Test Statistic: {stat}, p-value: {p_value}")
+###Looks normal, will go with normal
+##Simulation with normal distribution
+collected = []
+for i in range(10000): #10,000 looped sim. 
+  ret = np.random.normal(loc = return_mean, scale = return_std) #looping with total mean and std found 
+  P0 = 2279 # initial investment --- > average of sales of last year 
+  P1 = P0 * (1 + ret) 
+  collected.append(P1)
+df = pd.DataFrame(collected)
+
+##Visualize simulation results
+ax = sns.histplot(data = df)
+ax.set(xlabel = "Final Value")
+ax.axvline(x = 2279, color = "red")
+##Simulation with kde
+kernel = gaussian_kde(ar_return) ## Gaussian kde from above ticker annual returns 
+
+kd_data = []
+for i in range(10000):
+  ret = kernel.resample(size = 1).item() #fix the return of interest, item is removing the indicies unneccessary
+  P0 = 2279 # inital investment ---> average of last years sales
+  P1 = P0 * (1 + ret)
+  kd_data.append(P1)
+kde_df = pd.DataFrame(kd_data)
+
+##Visualize simulation with kde
+ax = sns.histplot(data = kde_df)
+ax.set(xlabel = "Final Value")
+ax.axvline(x = 2279, color = "red")
+## Simulate various years with the influx of historical years
+### for correct year marks
+np.random.seed(123)
+
+# Number of simulations
+n_simulations = 10000
+data = []
+kernel = gaussian_kde(ar_return)
+# Simulation loop
+for i in range(n_simulations):
+    # Initial price
+    P0 = 2279
+    Pt = P0
+
+    for j in range(7):  # 2006 to 2012 (7 years)
+        #ret = np.random.normal(loc = return_mean, scale = return_std)
+        ret = kernel.resample(size = 1).item() #fix the return of interest, item is removing the indicies unneccessary
+        Pt *= (1 + ret)
+
+    for j in range(3):  # 2012 to 2015 (3 years)
+        ret = np.random.triangular(-0.22, -0.0917, -0.07,)  ### triangular for decrease 9.17%, max 22%, min 7%
+        Pt *= (1 + ret)
+
+    for j in range(10):  # 2015 to 2024 (10 years)
+        ret = np.random.triangular(0.02, 0.05, 0.06) #triangular for increase 5%, max 6%, min 2%
+        Pt *= (1 + ret)
+
+    # Simulate for 2025 (Same distribution as 2015-2024)
+    ret = np.random.triangular(0.02, 0.05, 0.06) #same triangular as above
+    Pt *= (1 + ret)
+    
+   
+    data.append(Pt)
+
+df = pd.DataFrame(data)
+## Explore the suggested cost output and its variation in simulation
+print(df.describe())
+
+df = pd.DataFrame(data, columns=["Final Price"])
+## Visualize full simulation
+ax = sns.histplot(data = df)
+ax.set(xlabel = "Final Price")
+
